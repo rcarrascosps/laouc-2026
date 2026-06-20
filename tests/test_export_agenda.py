@@ -109,3 +109,64 @@ def test_build_speaker_lookup_missing_orig_row_yields_empty_fields():
     accepted_rows = [{'FirstName': 'Nobody', 'LastName': 'Here', 'SessionId': '999'}]
     lookup = build_speaker_lookup(accepted_rows, [])
     assert lookup['nobody here'] == {'company': '', 'bio': '', 'oracle_ace': ''}
+
+
+from openpyxl import Workbook
+from openpyxl.styles import PatternFill
+from export_agenda import is_keynote_row, extract_city_sessions
+
+
+def _make_test_sheet():
+    wb = Workbook()
+    ws = wb.active
+    ws.title = 'Mexico'
+    ws['A2'] = 'Horario'
+    ws['B2'] = 'APEX'
+    ws['C2'] = 'Base de Datos'
+    ws['D2'] = 'Cloud & Diff. Topics'
+    ws['E2'] = 'Inteligencia Artificial'
+    ws.merge_cells('B3:E3')
+    ws['B3'] = 'Keynote Title\nKeynote Speaker  (KEYNOTE)'
+    ws['A4'] = '09:45 – 10:30'
+    ws['B4'] = 'APEX Session\nSpeaker One'
+    return ws
+
+
+def test_is_keynote_row_true_for_merged_row():
+    assert is_keynote_row(_make_test_sheet(), 3) is True
+
+
+def test_is_keynote_row_false_for_normal_row():
+    assert is_keynote_row(_make_test_sheet(), 4) is False
+
+
+def test_extract_city_sessions_reads_keynote_and_track_session():
+    ws = _make_test_sheet()
+    green = PatternFill(start_color='FFC6EFCE', end_color='FFC6EFCE', fill_type='solid')
+    ws['B3'].fill = green
+    ws['B4'].fill = green
+
+    entries = extract_city_sessions(ws)
+
+    assert entries == [
+        {
+            'city': 'Mexico', 'time_slot': None, 'track': None, 'is_keynote': True,
+            'title': 'Keynote Title', 'speaker_name': 'Keynote Speaker', 'fill_rgb': 'FFC6EFCE',
+        },
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'APEX Session', 'speaker_name': 'Speaker One', 'fill_rgb': 'FFC6EFCE',
+        },
+    ]
+
+
+def test_extract_city_sessions_skips_empty_cells():
+    ws = _make_test_sheet()
+    ws['B3'] = None
+    entries = extract_city_sessions(ws)
+    assert entries == [
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'APEX Session', 'speaker_name': 'Speaker One', 'fill_rgb': '00000000',
+        },
+    ]

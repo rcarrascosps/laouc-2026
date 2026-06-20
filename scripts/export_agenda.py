@@ -80,3 +80,34 @@ def build_speaker_lookup(accepted_rows, orig_rows):
             'oracle_ace': extract_ace(tagline),
         }
     return lookup
+
+
+def is_keynote_row(ws, row_idx):
+    for rng in ws.merged_cells.ranges:
+        if rng.min_row == row_idx and rng.min_col == 2 and rng.max_col == 5:
+            return True
+    return False
+
+
+def extract_city_sessions(ws):
+    city = ws.title
+    track_names = {col: ws.cell(row=2, column=col).value for col in range(2, 6)}
+    entries = []
+    for row in range(3, ws.max_row + 1):
+        time_slot = ws.cell(row=row, column=1).value
+        keynote = is_keynote_row(ws, row)
+        for col in range(2, 6):
+            cell = ws.cell(row=row, column=col)
+            if not cell.value:
+                continue
+            parsed = parse_session_cell(cell.value)
+            entries.append({
+                'city': city,
+                'time_slot': None if keynote else time_slot,
+                'track': None if keynote else track_names[col],
+                'is_keynote': keynote,
+                'title': parsed['title'],
+                'speaker_name': parsed['speaker_name'],
+                'fill_rgb': cell.fill.fgColor.rgb,
+            })
+    return entries
