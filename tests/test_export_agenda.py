@@ -44,3 +44,8 @@ def test_parse_session_cell_no_speaker_line():
         'title': '▶  KEYNOTE  —  PENDIENTE DE CONFIRMAR',
         'speaker_name': '',
     }
+
+
+def test_parse_session_cell_empty_text_returns_empty_fields():
+    assert parse_session_cell('') == {'title': '', 'speaker_name': ''}
+    assert parse_session_cell('   \n   ') == {'title': '', 'speaker_name': ''}

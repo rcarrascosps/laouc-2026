@@ -10,6 +10,8 @@ def is_confirmed(fill_rgb):
 
 def parse_session_cell(text):
     lines = [l.strip() for l in text.split('\n') if l.strip()]
+    if not lines:
+        return {'title': '', 'speaker_name': ''}
     title = lines[0]
     speaker_line = next((l for l in lines[1:] if not l.startswith('(orig')), '')
     speaker_name = re.sub(r'\s*\(KEYNOTE\)\s*', '', speaker_line)
