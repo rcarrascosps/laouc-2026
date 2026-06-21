@@ -82,6 +82,8 @@ def build_speaker_lookup(accepted_rows, orig_rows):
     return lookup
 
 
+# Distinguishes the keynote row (merged B3:E3, min_col=2) from the lunch-break
+# row (merged A8:E8, min_col=1) — only a merge starting at column B is a keynote.
 def is_keynote_row(ws, row_idx):
     for rng in ws.merged_cells.ranges:
         if rng.min_row == row_idx and rng.min_col == 2 and rng.max_col == 5:

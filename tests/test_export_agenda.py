@@ -170,3 +170,22 @@ def test_extract_city_sessions_skips_empty_cells():
             'title': 'APEX Session', 'speaker_name': 'Speaker One', 'fill_rgb': '00000000',
         },
     ]
+
+
+def _make_sheet_with_lunch_break():
+    ws = _make_test_sheet()
+    ws['A8'] = '  ALMUERZO  /  LUNCH BREAK     13:00 – 14:30'
+    ws.merge_cells('A8:E8')
+    return ws
+
+
+def test_is_keynote_row_false_for_lunch_break_merge():
+    ws = _make_sheet_with_lunch_break()
+    assert is_keynote_row(ws, 8) is False
+
+
+def test_extract_city_sessions_produces_no_entry_for_lunch_break_row():
+    ws = _make_sheet_with_lunch_break()
+    entries = extract_city_sessions(ws)
+    assert all(e['time_slot'] != '  ALMUERZO  /  LUNCH BREAK     13:00 – 14:30' for e in entries)
+    assert not any(e['is_keynote'] and e['title'].startswith('ALMUERZO') for e in entries)
