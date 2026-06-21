@@ -182,3 +182,49 @@ def _make_sheet_with_lunch_break():
 def test_is_keynote_row_false_for_lunch_break_merge():
     ws = _make_sheet_with_lunch_break()
     assert is_keynote_row(ws, 8) is False
+
+
+from export_agenda import build_public_sessions
+
+
+def test_build_public_sessions_filters_unconfirmed_and_enriches():
+    raw_entries = [
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'APEX Session', 'speaker_name': 'Eugenio Galiano', 'fill_rgb': 'FFC6EFCE',
+        },
+        {
+            'city': 'Mexico', 'time_slot': '10:30 – 11:15', 'track': 'APEX', 'is_keynote': False,
+            'title': 'Unconfirmed Session', 'speaker_name': 'Someone Pending', 'fill_rgb': 'FFFFF2CC',
+        },
+    ]
+    speaker_lookup = {
+        'eugenio galiano': {'company': 'Oracle', 'bio': 'Bio text.', 'oracle_ace': ''},
+    }
+
+    result = build_public_sessions(raw_entries, speaker_lookup)
+
+    assert result == [
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'APEX Session', 'speaker_name': 'Eugenio Galiano',
+            'speaker_company': 'Oracle', 'speaker_bio': 'Bio text.', 'oracle_ace': None,
+        },
+    ]
+
+
+def test_build_public_sessions_unmatched_speaker_gets_empty_enrichment():
+    raw_entries = [
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'Mystery Session', 'speaker_name': 'Unknown Person', 'fill_rgb': 'FFC6EFCE',
+        },
+    ]
+    result = build_public_sessions(raw_entries, {})
+    assert result == [
+        {
+            'city': 'Mexico', 'time_slot': '09:45 – 10:30', 'track': 'APEX', 'is_keynote': False,
+            'title': 'Mystery Session', 'speaker_name': 'Unknown Person',
+            'speaker_company': '', 'speaker_bio': '', 'oracle_ace': None,
+        },
+    ]

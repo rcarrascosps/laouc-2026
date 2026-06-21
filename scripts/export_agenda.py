@@ -1,7 +1,23 @@
 """Export the public, confirmed-only LAOUC Tour agenda to JSON for the MCP server."""
+import json
 import re
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+import pandas as pd
+from openpyxl import load_workbook
 
 GREEN_FILL = 'FFC6EFCE'
+
+TOUR_DIR = Path(r"C:\rolando\SPS\2026\LAOUC\tour")
+AGENDA_XLSX = TOUR_DIR / "agenda_laouc_tour_2026.xlsx"
+SESIONES_XLSX = TOUR_DIR / "sesiones.xlsx"
+ACCEPTED_CSV = TOUR_DIR / "accepted_sessions.csv"
+OUTPUT_JSON = Path(__file__).resolve().parent.parent / "data" / "agenda-publica.json"
+
+CITIES = ['Mexico', 'Guatemala', 'Costa Rica', 'Panama', 'Chile',
+          'Brazil', 'Uruguay', 'Argentina', 'Paraguay']
 
 
 def is_confirmed(fill_rgb):
@@ -113,3 +129,54 @@ def extract_city_sessions(ws):
                 'fill_rgb': cell.fill.fgColor.rgb,
             })
     return entries
+
+
+def build_public_sessions(raw_entries, speaker_lookup):
+    public_sessions = []
+    for entry in raw_entries:
+        if not is_confirmed(entry['fill_rgb']):
+            continue
+        info = speaker_lookup.get(normalize_name(entry['speaker_name']), {})
+        public_sessions.append({
+            'city': entry['city'],
+            'time_slot': entry['time_slot'],
+            'track': entry['track'],
+            'is_keynote': entry['is_keynote'],
+            'title': entry['title'],
+            'speaker_name': entry['speaker_name'],
+            'speaker_company': info.get('company', ''),
+            'speaker_bio': info.get('bio', ''),
+            'oracle_ace': info.get('oracle_ace', '') or None,
+        })
+    return public_sessions
+
+
+def main():
+    accepted = pd.read_csv(ACCEPTED_CSV, dtype={'SessionId': str}).to_dict('records')
+    orig_df = pd.read_excel(
+        SESIONES_XLSX, sheet_name='Sessions and speakers - Origina', dtype={'Session Id': str}
+    )
+    orig_df = orig_df.rename(columns={'Session Id': 'SessionId'})
+    orig_rows = orig_df.to_dict('records')
+
+    speaker_lookup = build_speaker_lookup(accepted, orig_rows)
+
+    wb = load_workbook(AGENDA_XLSX)
+    all_public_sessions = []
+    for city in CITIES:
+        ws = wb[city]
+        raw_entries = extract_city_sessions(ws)
+        all_public_sessions.extend(build_public_sessions(raw_entries, speaker_lookup))
+
+    output = {
+        'generated_at': datetime.now(timezone.utc).isoformat(),
+        'cities': CITIES,
+        'sessions': all_public_sessions,
+    }
+    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_JSON.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'Wrote {len(all_public_sessions)} sessions -> {OUTPUT_JSON}')
+
+
+if __name__ == '__main__':
+    sys.exit(main())
