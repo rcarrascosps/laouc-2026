@@ -25,9 +25,13 @@ export async function fetchAgendaData(agendaJsonUrl: string): Promise<AgendaData
   const cache = caches.default;
   const cacheRequest = new Request(CACHE_KEY);
 
-  const cached = await cache.match(cacheRequest);
-  if (cached) {
-    return (await cached.json()) as AgendaData;
+  try {
+    const cached = await cache.match(cacheRequest);
+    if (cached) {
+      return (await cached.json()) as AgendaData;
+    }
+  } catch {
+    // Treat a broken cache read as a cache miss — fall through to the network fetch below.
   }
 
   let response: Response;

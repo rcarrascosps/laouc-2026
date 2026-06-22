@@ -62,4 +62,23 @@ describe('fetchAgendaData', () => {
 
     await expect(fetchAgendaData('https://example.com/agenda.json')).rejects.toThrow(AgendaFetchError);
   });
+
+  it('falls through to a network fetch when the cache read throws', async () => {
+    // @ts-expect-error - simplified Cache mock for tests
+    globalThis.caches = {
+      default: {
+        async match() {
+          throw new Error('cache backend unavailable');
+        },
+        async put() {
+          // no-op for this test
+        },
+      },
+    };
+    globalThis.fetch = vi.fn().mockResolvedValue(new Response(JSON.stringify(SAMPLE_DATA), { status: 200 }));
+
+    const result = await fetchAgendaData('https://example.com/agenda.json');
+
+    expect(result).toEqual(SAMPLE_DATA);
+  });
 });
