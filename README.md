@@ -7,7 +7,7 @@ para que los speakers la consulten desde su propio Claude Desktop o Claude Code.
 
 1. Abre Claude Desktop o Claude Code.
 2. Ve a **Settings → Connectors → Add custom connector**.
-3. Pega esta URL: `https://laouc-agenda-mcp.<tu-subdominio>.workers.dev`
+3. Pega esta URL: `https://laouc-agenda-mcp.rcarrascosps.workers.dev`
 4. Guarda y empieza a preguntar, por ejemplo:
    - "¿Cuál es mi sesión en México?"
    - "¿Qué agenda tiene Chile?"
