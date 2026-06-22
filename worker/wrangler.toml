@@ -3,4 +3,4 @@ main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
 [vars]
-AGENDA_JSON_URL = "https://raw.githubusercontent.com/<github-user>/mcp-agenda-server/master/data/agenda-publica.json"
+AGENDA_JSON_URL = "https://raw.githubusercontent.com/rcarrascosps/laouc-2026/main/data/agenda-publica.json"
