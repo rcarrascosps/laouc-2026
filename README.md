@@ -1,45 +1,76 @@
 # LAOUC Tour 2026 — Agenda MCP Server
 
-Servidor MCP de solo lectura con la agenda pública y confirmada del LAOUC Tour 2026,
-para que los speakers la consulten desde su propio Claude Desktop o Claude Code.
+A read-only MCP server with the public, confirmed agenda for the LAOUC Tour 2026.
+Speakers and country coordinators can connect it to their own Claude Desktop or
+Claude Code and ask questions about the agenda in natural language — no login,
+spreadsheet, or API key required.
 
-## Para speakers: cómo conectarte
+**Server URL:** `https://laouc-agenda-mcp.rcarrascosps.workers.dev`
 
-1. Abre Claude Desktop o Claude Code.
-2. Ve a **Settings → Connectors → Add custom connector**.
-3. Pega esta URL: `https://laouc-agenda-mcp.rcarrascosps.workers.dev`
-4. Guarda y empieza a preguntar, por ejemplo:
-   - "¿Cuál es mi sesión en México?"
-   - "¿Qué agenda tiene Chile?"
-   - "¿Quién da el keynote en Brazil?"
+## How to connect (Claude Desktop)
 
-## Para mantenimiento (organizador)
+1. Open **Claude Desktop**.
+2. Go to **Settings → Connectors**.
+3. Click **Add custom connector** (bottom of the "Custom connectors" section).
+4. Set **Name** to `LAOUC Agenda 2026`.
+5. Set **URL** to `https://laouc-agenda-mcp.rcarrascosps.workers.dev`.
+6. Save. Claude should detect the server and list 5 available tools.
+7. Start a new chat and ask away.
 
-La fuente de verdad de la agenda vive en `C:\rolando\SPS\2026\LAOUC\tour\`. Este repo
-nunca la modifica, solo la lee para generar un JSON público.
+## How to connect (Claude Code)
 
-Después de editar la agenda en `tour\`:
+```
+claude mcp add --transport http laouc-agenda https://laouc-agenda-mcp.rcarrascosps.workers.dev
+```
+
+## What you can ask
+
+- "What's the agenda for Chile?"
+- "Who's speaking in Brazil?"
+- "Find my sessions" (mention your name)
+- "Who's giving the keynote in Mexico?"
+- "Search for sessions about GoldenGate"
+
+## Available tools
+
+| Tool | What it does |
+|------|---------------|
+| `list_cities` | Lists the 9 tour cities |
+| `get_city_agenda` | Full agenda for one city, sorted by time slot |
+| `get_speaker_sessions` | All confirmed sessions for a given speaker, across cities |
+| `search_sessions` | Keyword search across session title, track, and speaker bio |
+| `get_keynotes` | Confirmed keynotes for all 9 cities |
+
+The data only includes confirmed sessions (green/accepted) and contains no emails or
+other personal contact info — it's safe to share this URL publicly with speakers.
+
+## Maintenance (organizer only)
+
+The source of truth for the agenda lives in `C:\rolando\SPS\2026\LAOUC\tour\`. This
+repo never modifies it — it only reads it to generate a public JSON snapshot.
+
+After editing the agenda in `tour\`:
 
 ```bash
 python scripts/export_agenda.py
 git add data/agenda-publica.json
-git commit -m "data: actualizar agenda pública"
+git commit -m "data: update public agenda"
 git push
 ```
 
-Los cambios quedan visibles para los speakers en unos 5 minutos (por el caché del
-Worker), sin necesidad de redesplegar nada.
+Changes become visible to speakers within ~5 minutes (Worker cache), no redeploy
+needed.
 
-## Estructura del repo
+### Repo structure
 
-- `scripts/export_agenda.py` — genera `data/agenda-publica.json` desde la agenda maestra.
-- `data/agenda-publica.json` — dataset público (sin emails, solo sesiones confirmadas).
-- `worker/` — servidor MCP en Cloudflare Workers (TypeScript).
-- `docs/superpowers/specs/` y `docs/superpowers/plans/` — diseño y plan de este proyecto.
+- `scripts/export_agenda.py` — generates `data/agenda-publica.json` from the master agenda.
+- `data/agenda-publica.json` — public dataset (confirmed sessions only, no emails).
+- `worker/` — MCP server on Cloudflare Workers (TypeScript).
+- `docs/superpowers/specs/` and `docs/superpowers/plans/` — design and plan for this project.
 
-## Pruebas
+### Tests
 
 ```bash
 pytest tests/ -v              # export script
-cd worker && npx vitest run   # servidor MCP
+cd worker && npx vitest run   # MCP server
 ```
