@@ -8,12 +8,30 @@ export interface Env {
   AGENDA_JSON_URL: string;
 }
 
+async function withAgendaErrorHandling<T>(
+  fn: () => Promise<T>
+): Promise<T | { content: { type: 'text'; text: string }[]; isError: true }> {
+  try {
+    return await fn();
+  } catch (err) {
+    if (err instanceof AgendaFetchError) {
+      return {
+        content: [{ type: 'text', text: `La agenda no está disponible en este momento: ${err.message}` }],
+        isError: true,
+      };
+    }
+    throw err;
+  }
+}
+
 function buildServer(env: Env): McpServer {
   const server = new McpServer({ name: 'laouc-agenda', version: '1.0.0' });
 
   server.tool('list_cities', 'Lista las 9 ciudades del LAOUC Tour 2026', {}, async () => {
-    const data = await fetchAgendaData(env.AGENDA_JSON_URL);
-    return { content: [{ type: 'text', text: JSON.stringify(listCities(data)) }] };
+    return withAgendaErrorHandling(async () => {
+      const data = await fetchAgendaData(env.AGENDA_JSON_URL);
+      return { content: [{ type: 'text', text: JSON.stringify(listCities(data)) }] };
+    });
   });
 
   server.tool(
@@ -21,8 +39,10 @@ function buildServer(env: Env): McpServer {
     'Devuelve la agenda completa de una ciudad del tour, ordenada por horario',
     { city: z.string().describe('Nombre exacto de la ciudad, ej. "Mexico"') },
     async ({ city }: { city: string }) => {
-      const data = await fetchAgendaData(env.AGENDA_JSON_URL);
-      return { content: [{ type: 'text', text: JSON.stringify(getCityAgenda(data, city)) }] };
+      return withAgendaErrorHandling(async () => {
+        const data = await fetchAgendaData(env.AGENDA_JSON_URL);
+        return { content: [{ type: 'text', text: JSON.stringify(getCityAgenda(data, city)) }] };
+      });
     }
   );
 
@@ -31,12 +51,14 @@ function buildServer(env: Env): McpServer {
     'Devuelve todas las sesiones confirmadas de un speaker en cualquier ciudad del tour',
     { speaker_name: z.string().describe('Nombre completo o parcial del speaker') },
     async ({ speaker_name }: { speaker_name: string }) => {
-      const data = await fetchAgendaData(env.AGENDA_JSON_URL);
-      const sessions = getSpeakerSessions(data, speaker_name);
-      const text = sessions.length
-        ? JSON.stringify(sessions)
-        : `No encontré sesiones para "${speaker_name}". Revisa la ortografía del nombre.`;
-      return { content: [{ type: 'text', text }] };
+      return withAgendaErrorHandling(async () => {
+        const data = await fetchAgendaData(env.AGENDA_JSON_URL);
+        const sessions = getSpeakerSessions(data, speaker_name);
+        const text = sessions.length
+          ? JSON.stringify(sessions)
+          : `No encontré sesiones para "${speaker_name}". Revisa la ortografía del nombre.`;
+        return { content: [{ type: 'text', text }] };
+      });
     }
   );
 
@@ -45,18 +67,22 @@ function buildServer(env: Env): McpServer {
     'Busca sesiones por palabra clave en el título, track o biografía del speaker',
     { query: z.string().describe('Palabra clave a buscar, ej. "AI" o "GoldenGate"') },
     async ({ query }: { query: string }) => {
-      const data = await fetchAgendaData(env.AGENDA_JSON_URL);
-      const sessions = searchSessions(data, query);
-      const text = sessions.length
-        ? JSON.stringify(sessions)
-        : `No encontré sesiones que coincidan con "${query}".`;
-      return { content: [{ type: 'text', text }] };
+      return withAgendaErrorHandling(async () => {
+        const data = await fetchAgendaData(env.AGENDA_JSON_URL);
+        const sessions = searchSessions(data, query);
+        const text = sessions.length
+          ? JSON.stringify(sessions)
+          : `No encontré sesiones que coincidan con "${query}".`;
+        return { content: [{ type: 'text', text }] };
+      });
     }
   );
 
   server.tool('get_keynotes', 'Lista los keynotes confirmados de las 9 ciudades del tour', {}, async () => {
-    const data = await fetchAgendaData(env.AGENDA_JSON_URL);
-    return { content: [{ type: 'text', text: JSON.stringify(getKeynotes(data)) }] };
+    return withAgendaErrorHandling(async () => {
+      const data = await fetchAgendaData(env.AGENDA_JSON_URL);
+      return { content: [{ type: 'text', text: JSON.stringify(getKeynotes(data)) }] };
+    });
   });
 
   return server;
