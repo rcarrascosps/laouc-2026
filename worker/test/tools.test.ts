@@ -4,7 +4,7 @@ import type { AgendaData } from '../src/data';
 
 const DATA: AgendaData = {
   generated_at: '2026-06-20T00:00:00Z',
-  cities: ['Mexico', 'Chile'],
+  cities: ['Mexico', 'Chile', 'Brazil'],
   sessions: [
     {
       city: 'Mexico', time_slot: null, track: null, is_keynote: true,
@@ -26,7 +26,7 @@ const DATA: AgendaData = {
 
 describe('listCities', () => {
   it('returns the cities list', () => {
-    expect(listCities(DATA)).toEqual(['Mexico', 'Chile']);
+    expect(listCities(DATA)).toEqual(['Mexico', 'Chile', 'Brazil']);
   });
 });
 
@@ -38,8 +38,12 @@ describe('getCityAgenda', () => {
   it('returns an error with valid cities for an unknown city', () => {
     expect(getCityAgenda(DATA, 'Atlantis')).toEqual({
       error: 'Ciudad no encontrada: Atlantis',
-      valid_cities: ['Mexico', 'Chile'],
+      valid_cities: ['Mexico', 'Chile', 'Brazil'],
     });
+  });
+
+  it('returns an empty array for a valid city with no sessions', () => {
+    expect(getCityAgenda(DATA, 'Brazil')).toEqual([]);
   });
 });
 
@@ -60,6 +64,10 @@ describe('getSpeakerSessions', () => {
 describe('searchSessions', () => {
   it('matches by title keyword', () => {
     expect(searchSessions(DATA, 'APEX')).toEqual([DATA.sessions[1]]);
+  });
+
+  it('matches by title keyword regardless of case', () => {
+    expect(searchSessions(DATA, 'apex')).toEqual([DATA.sessions[1]]);
   });
 
   it('returns an empty array when nothing matches', () => {
