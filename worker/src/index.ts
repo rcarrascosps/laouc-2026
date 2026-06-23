@@ -27,7 +27,7 @@ async function withAgendaErrorHandling<T>(
 function buildServer(env: Env): McpServer {
   const server = new McpServer({ name: 'laouc-agenda', version: '1.0.0' });
 
-  server.tool('list_cities', 'Lista las 9 ciudades del LAOUC Tour 2026', {}, async () => {
+  server.tool('list_cities', 'Lista las 9 ciudades del LAOUC Tour 2026 con su fecha de evento', {}, async () => {
     return withAgendaErrorHandling(async () => {
       const data = await fetchAgendaData(env.AGENDA_JSON_URL);
       return { content: [{ type: 'text', text: JSON.stringify(listCities(data)) }] };
@@ -36,7 +36,7 @@ function buildServer(env: Env): McpServer {
 
   server.tool(
     'get_city_agenda',
-    'Devuelve la agenda completa de una ciudad del tour, ordenada por horario',
+    'Devuelve la agenda completa de una ciudad del tour, con fecha de calendario y horario local, ordenada por horario',
     { city: z.string().describe('Nombre exacto de la ciudad, ej. "Mexico"') },
     async ({ city }: { city: string }) => {
       return withAgendaErrorHandling(async () => {

@@ -1,7 +1,7 @@
 import type { AgendaData, PublicSession } from './data';
 
-export function listCities(data: AgendaData): string[] {
-  return data.cities;
+export function listCities(data: AgendaData): { city: string; date: string }[] {
+  return data.cities.map((city) => ({ city, date: data.city_dates[city] }));
 }
 
 export function getCityAgenda(

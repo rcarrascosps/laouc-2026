@@ -41,16 +41,20 @@ Clients that only support local (stdio) MCP servers won't be able to connect dir
 - "Find my sessions" (mention your name)
 - "Who's giving the keynote in Mexico?"
 - "Search for sessions about GoldenGate"
+- "What date is the Mexico stop?"
 
 ## Available tools
 
 | Tool | What it does |
 |------|---------------|
-| `list_cities` | Lists the 9 tour cities |
-| `get_city_agenda` | Full agenda for one city, sorted by time slot |
+| `list_cities` | Lists the 9 tour cities, each with its event date |
+| `get_city_agenda` | Full agenda for one city — date, local time slot, track — sorted by time slot |
 | `get_speaker_sessions` | All confirmed sessions for a given speaker, across cities |
 | `search_sessions` | Keyword search across session title, track, and speaker bio |
 | `get_keynotes` | Confirmed keynotes for all 9 cities |
+
+Every session includes a `date` field (ISO `YYYY-MM-DD`) for its city's tour stop, plus
+`time_slot`, which is the local agenda time in that city — not adjusted for timezone.
 
 The data only includes confirmed sessions (green/accepted) and contains no emails or
 other personal contact info — it's safe to share this URL publicly with speakers.
@@ -71,6 +75,10 @@ git push
 
 Changes become visible to speakers within ~5 minutes (Worker cache), no redeploy
 needed.
+
+Per-city event dates live in `CITY_DATES` at the top of `scripts/export_agenda.py` —
+they're organizer-confirmed and don't come from the spreadsheet. If a city's date
+changes, edit that dict and re-run the export.
 
 ### Repo structure
 

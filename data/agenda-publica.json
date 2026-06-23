@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T17:28:19.659755+00:00",
+  "generated_at": "2026-06-23T20:27:57.685756+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -11,6 +11,17 @@
     "Argentina",
     "Paraguay"
   ],
+  "city_dates": {
+    "Mexico": "2026-08-14",
+    "Guatemala": "2026-08-17",
+    "Costa Rica": "2026-08-19",
+    "Panama": "2026-08-21",
+    "Chile": "2026-08-24",
+    "Paraguay": "2026-08-26",
+    "Brazil": "2026-08-29",
+    "Uruguay": "2026-08-31",
+    "Argentina": "2026-09-02"
+  },
   "sessions": [
     {
       "city": "Mexico",
@@ -21,7 +32,8 @@
       "speaker_name": "Eugenio Galiano",
       "speaker_company": "",
       "speaker_bio": "Eugenio Galiano es un Distinguished Product Manager con mas de 25 anos en Oracle. Espcializado en la base de datos y en la funcionalidad y herramientas de Inteligencia Artificial. Trabaja con clientes en todas partes del mundo para avanzar la adopcion de IA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -32,7 +44,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -43,7 +56,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -54,7 +68,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -65,7 +80,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -76,7 +92,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -87,7 +104,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -98,7 +116,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -109,7 +128,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -120,7 +140,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -131,7 +152,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -142,7 +164,8 @@
       "speaker_name": "Hector Joaquin Andrade Rodriguez",
       "speaker_company": "",
       "speaker_bio": "Héctor is a seasoned BI Senior Principal Consultant with over 13 years of experience delivering end-to-end Business Intelligence and Data Analytics solutions. He specializes in data analytics and data modeling and development, leveraging technologies such as , OBIEE, OAS, OAC, Oracle Fusion Analytics (FDI), Informatica PowerCenter, Oracle Data Integrator (ODI), among others",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -153,7 +176,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -164,7 +188,8 @@
       "speaker_name": "Francisco Munoz Alvarez",
       "speaker_company": "Oracle",
       "speaker_bio": "Francisco Munoz Alvarez is a global technology leader specializing in Oracle Database High Availability, Disaster Recovery, and Maximum Availability Architecture (MAA). As a Distinguished Product Manager within Oracle’s Mission-Critical Data team, he leads global customer adoption strategies that help enterprises protect their most valuable asset: data.\nFrancisco is a recognized industry thought leader, international keynote speaker, and published writer known for translating complex technical concepts into practical business strategies. His work spans global financial institutions, government agencies, and enterprise organizations, helping them design resilient, scalable, and always-available data platforms.\n\nComplementing his technology leadership, Francisco holds an MBA with a strong focus on marketing and business strategy, allowing him to bridge technical innovation with executive decision-making.\n\nOutside the corporate world, Francisco competes internationally representing Australia in Dragon Boat World Championships. This elite sporting experience heavily influences his leadership philosophy, emphasizing teamwork, discipline, precision, and performance under pressure.\n\nFrancisco’s presentations uniquely blend real-world technology resilience lessons with high-performance athletic principles, inspiring audiences to build systems, teams, and organizations that thrive when failure is not an option.\n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -175,7 +200,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -186,7 +212,8 @@
       "speaker_name": "Miguel Silva",
       "speaker_company": "Oracle",
       "speaker_bio": "Soy Senior Member of Technical Staff en Oracle, donde he tenido la oportunidad de contribuir al desarrollo y mejora de soluciones tecnológicas de alto impacto durante los últimos tres años. Mi experiencia como desarrollador suma cinco años en total, abarcando diversos proyectos y tecnologías que han fortalecido mis habilidades técnicas y de liderazgo en el sector.\n\nCursé la licenciatura en Ingeniería en Tecnologías Computacionales en el Tecnológico de Monterrey, campus Puebla, lo que me brindó una sólida formación en áreas clave de la computación y la ingeniería. Actualmente, continúo mi preparación académica como estudiante de la Maestría en Inteligencia Artificial Aplicada, también en el Tec de Monterrey, con el objetivo de potenciar mi conocimiento en temas de vanguardia y su aplicación en soluciones empresariales.\n\nMi enfoque profesional se centra en la innovación, el trabajo en equipo y la aplicación de nuevas tecnologías para resolver retos complejos y contribuir al éxito de la organización.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -197,7 +224,8 @@
       "speaker_name": "Francisco Munoz Alvarez",
       "speaker_company": "Oracle",
       "speaker_bio": "Francisco Munoz Alvarez is a global technology leader specializing in Oracle Database High Availability, Disaster Recovery, and Maximum Availability Architecture (MAA). As a Distinguished Product Manager within Oracle’s Mission-Critical Data team, he leads global customer adoption strategies that help enterprises protect their most valuable asset: data.\nFrancisco is a recognized industry thought leader, international keynote speaker, and published writer known for translating complex technical concepts into practical business strategies. His work spans global financial institutions, government agencies, and enterprise organizations, helping them design resilient, scalable, and always-available data platforms.\n\nComplementing his technology leadership, Francisco holds an MBA with a strong focus on marketing and business strategy, allowing him to bridge technical innovation with executive decision-making.\n\nOutside the corporate world, Francisco competes internationally representing Australia in Dragon Boat World Championships. This elite sporting experience heavily influences his leadership philosophy, emphasizing teamwork, discipline, precision, and performance under pressure.\n\nFrancisco’s presentations uniquely blend real-world technology resilience lessons with high-performance athletic principles, inspiring audiences to build systems, teams, and organizations that thrive when failure is not an option.\n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -208,7 +236,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -219,7 +248,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -230,7 +260,8 @@
       "speaker_name": "Iñaqui Medina",
       "speaker_company": "Oracle",
       "speaker_bio": "Iñaqui Medina is a software development professional with more than 25 years of experience building and evolving enterprise systems. Over the past decade, at Oracle, he has led multiple database engineering teams focused on semistructured data management, working extensively with XML, JSON, natural language data, object-relational models, and database extensibility.\n\nHis work centers on helping organizations modernize legacy architectures, bridge relational and document paradigms, and design scalable data platforms that handle increasingly complex and flexible data structures. Iñaqui brings a practical, real-world perspective to topics such as hybrid data models, enterprise modernization, and the future of data-driven application design.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -241,7 +272,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -252,7 +284,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -263,7 +296,8 @@
       "speaker_name": "Iñaqui Medina",
       "speaker_company": "Oracle",
       "speaker_bio": "Iñaqui Medina is a software development professional with more than 25 years of experience building and evolving enterprise systems. Over the past decade, at Oracle, he has led multiple database engineering teams focused on semistructured data management, working extensively with XML, JSON, natural language data, object-relational models, and database extensibility.\n\nHis work centers on helping organizations modernize legacy architectures, bridge relational and document paradigms, and design scalable data platforms that handle increasingly complex and flexible data structures. Iñaqui brings a practical, real-world perspective to topics such as hybrid data models, enterprise modernization, and the future of data-driven application design.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -274,7 +308,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -285,7 +320,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -296,7 +332,8 @@
       "speaker_name": "Vinicius Grippa",
       "speaker_company": "",
       "speaker_bio": "Vinicius Grippa is a Lead Database Engineer at Readyset and an Oracle ACE Director with over 20 years of experience in the database ecosystem. Co-author of Learning MySQL, 2nd Edition, he specializes in architecting and optimizing mission-critical MySQL and MongoDB environments on Linux.\n\nPreviously, Vinicius spent 8 years at Percona as a Lead Senior Database Engineer, where he spearheaded global initiatives to solve complex performance and scalability challenges.\n\nA passionate open-source advocate, he leads the MySQL User Group in Brazil and is a regular speaker at major global stages like FOSDEM, Percona Live, and OpenInfra Summit. He holds a B.S. in Computer Science from the University of São Paulo (USP).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -307,7 +344,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -318,7 +356,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -329,7 +368,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -340,7 +380,8 @@
       "speaker_name": "Iñaqui Medina",
       "speaker_company": "Oracle",
       "speaker_bio": "Iñaqui Medina is a software development professional with more than 25 years of experience building and evolving enterprise systems. Over the past decade, at Oracle, he has led multiple database engineering teams focused on semistructured data management, working extensively with XML, JSON, natural language data, object-relational models, and database extensibility.\n\nHis work centers on helping organizations modernize legacy architectures, bridge relational and document paradigms, and design scalable data platforms that handle increasingly complex and flexible data structures. Iñaqui brings a practical, real-world perspective to topics such as hybrid data models, enterprise modernization, and the future of data-driven application design.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -351,7 +392,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -362,7 +404,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -373,7 +416,8 @@
       "speaker_name": "Mario Barduchi",
       "speaker_company": "Dell Technologies",
       "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -384,7 +428,8 @@
       "speaker_name": "Darren Grogan",
       "speaker_company": "",
       "speaker_bio": "",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-14"
     },
     {
       "city": "Mexico",
@@ -395,7 +440,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-14"
     },
     {
       "city": "Guatemala",
@@ -406,7 +452,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -417,7 +464,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -428,7 +476,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -439,7 +488,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -450,7 +500,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -461,7 +512,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -472,7 +524,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -483,7 +536,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -494,7 +548,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -505,7 +560,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -516,7 +572,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -527,7 +584,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -538,7 +596,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -549,7 +608,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -560,7 +620,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -571,7 +632,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -582,7 +644,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -593,7 +656,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -604,7 +668,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -615,7 +680,8 @@
       "speaker_name": "Raúl Alvarenga",
       "speaker_company": "",
       "speaker_bio": "Oracle Certified Master 11g, Oracle ACE Soporte de Base de datos Oracle en diferentes paises de America , Europa y Africa desde el El Salvador",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Guatemala",
@@ -626,7 +692,8 @@
       "speaker_name": "Vicente Suc",
       "speaker_company": "JAVA User Group GT",
       "speaker_bio": "Ing. en sistemas, Co-fundador de CSN y Proticket.io, Co-Lider del Java User Group y Lider del AWS User Group Guatemala, especializado en crear soluciones seguras y escalables sobre la nube de AWS y Oracle. He liderado proyectos en sectores de salud, educación, BPO's, eventos masivos y plataformas digitales, combinando inteligencia artificial, servicios serverless y visión de negocio. Actualmente impulso iniciativas tecnológicas que optimizan procesos y mejoran la experiencia.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-17"
     },
     {
       "city": "Costa Rica",
@@ -637,7 +704,8 @@
       "speaker_name": "Jorge Arturo Hernandez Rojas",
       "speaker_company": "EOAPEX",
       "speaker_bio": "Eddie es consultor, capacitador y desarrollador en tecnologías Orcle, especialmente en Oracle Application EXpress, con más de 35 años de experiencia en el área de las Tecnologías de Información, de los cuales más de 30 años los ha dedicado a los tecnologías Oracle.\n\nEscribe sobre temas relacionados con Oracle APEX desde el año 2009 en su sitio ieskem.com y es además ponente en actividades tecnológicas  relacionadas con Oracle desde el año 2013.\n\nAdicionalmente, es miembro del grupo de líderes que conforman Latina America Oracle Users Community (LAOUC) desde el año 2019 y forma parte del Grupo de Usuarios Oracle de Costa Rica (ORAUGCRC) desde el año 2015, donde es presidente del mismo desde el año 2019. También forma parte del programa Oracle ACE, donde alcanza el nivel de Oracle ACE Pro.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -648,7 +716,8 @@
       "speaker_name": "Roy Salazar",
       "speaker_company": "",
       "speaker_bio": "I'm a Senior IT Professional, working since year 1998 with Oracle Products and Technology, first 6 years as Consultant Developer and Systems Analyst, then last 18+ years as DBA/Database Consultant for Oracle versions from 8i to 21c, also often have had an additional non-technical role associated for either short or long periods (ie: Delivery Lead / Acting Team Manager). Since 7 years ago I joined the Oracle ACE Program / Groundbreakers, currently I'm an Oracle ACE Pro. \n\nAlso I'm very passionate for Cybersecurity and Data Protection, I have developed expertise in Oracle Database Security, additionally I'm Oracle Cloud Infrastructure Certified Architect.\n\nBlogger at Pythian Blogs:\nhttps://blog.pythian.com/author/salazar/",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -659,7 +728,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -670,7 +740,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -681,7 +752,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -692,7 +764,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -703,7 +776,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -714,7 +788,8 @@
       "speaker_name": "Emmanuel Guzmán",
       "speaker_company": "Senior Java Software Engineer",
       "speaker_bio": "Software engineer with over 9 years of experience in Oracle technologies and software development. I began my career in infrastructure and middleware, specializing in high-availability environments, virtualization, security (SSL), and application servers. Since 2020, I have fully focused on software development, working with Java and Oracle APEX. In addition, I am co-founder of the Costa Rica Java User Group and creator of the blog oracle-max.com, where I share knowledge with the community. My passion for continuous learning led me to become part of the Oracle ACE program as an Oracle ACE Pro, and I am always eager to explore new technologies, especially in the field of Al.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -725,7 +800,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -736,7 +812,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -747,7 +824,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -758,7 +836,8 @@
       "speaker_name": "Biju Thomas",
       "speaker_company": "Data Intensity",
       "speaker_bio": "\nBiju Thomas is an Oracle ACE Director (since 2015) and a Cloud Technical Solutions Expert leading Data Intensity’s Digital Transformation practice. With a background spanning software development and enterprise database architecture, he brings a practitioner’s perspective to building scalable, production-ready cloud solutions.\n\nBiju specializes in modern data platforms, cloud migrations, and multicloud architectures, helping organizations integrate robust data foundations with hyperscaler ecosystems such as Microsoft Azure. A long-time community contributor and frequent speaker, he focuses on practical patterns that bridge enterprise data platforms with modern AI and application development.\n\nLearn more at www.bijoos.com\n.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -769,7 +848,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -780,7 +860,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -791,7 +872,8 @@
       "speaker_name": "Biju Thomas",
       "speaker_company": "Data Intensity",
       "speaker_bio": "\nBiju Thomas is an Oracle ACE Director (since 2015) and a Cloud Technical Solutions Expert leading Data Intensity’s Digital Transformation practice. With a background spanning software development and enterprise database architecture, he brings a practitioner’s perspective to building scalable, production-ready cloud solutions.\n\nBiju specializes in modern data platforms, cloud migrations, and multicloud architectures, helping organizations integrate robust data foundations with hyperscaler ecosystems such as Microsoft Azure. A long-time community contributor and frequent speaker, he focuses on practical patterns that bridge enterprise data platforms with modern AI and application development.\n\nLearn more at www.bijoos.com\n.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -802,7 +884,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -813,7 +896,8 @@
       "speaker_name": "Eddie Molina",
       "speaker_company": "EOAPEX",
       "speaker_bio": "Eddie es consultor, capacitador y desarrollador en tecnologías Orcle, especialmente en Oracle Application EXpress, con más de 35 años de experiencia en el área de las Tecnologías de Información, de los cuales más de 30 años los ha dedicado a los tecnologías Oracle.\n\nEscribe sobre temas relacionados con Oracle APEX desde el año 2009 en su sitio ieskem.com y es además ponente en actividades tecnológicas  relacionadas con Oracle desde el año 2013.\n\nAdicionalmente, es miembro del grupo de líderes que conforman Latina America Oracle Users Community (LAOUC) desde el año 2019 y forma parte del Grupo de Usuarios Oracle de Costa Rica (ORAUGCRC) desde el año 2015, donde es presidente del mismo desde el año 2019. También forma parte del programa Oracle ACE, donde alcanza el nivel de Oracle ACE Pro.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -824,7 +908,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -835,7 +920,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -846,7 +932,8 @@
       "speaker_name": "Ronald Francisco Vargas Quesada",
       "speaker_company": "oracledbacr.blogspot.com",
       "speaker_bio": "Experiencia de más de +30 en el plano laboral con tecnologías Oracle. Consultor Oracle DBA en temas de arquitectura, gestión, alta disponibilidad, DR y seguridad de base de datos. Profesor Universitario por más de 11 años. Instructor Oracle University y Oracle Academy por más de 20 años. Expositor internacional en todo LATAM, el Caribe y España. Impulsor de OUG´s en al región LATAM. Organizador del Evento de Primavera de LAOUC 2021. Miembro del Programa Oracle ACE desde el 2011. Creador del podcast #Oracledbacr.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -857,7 +944,8 @@
       "speaker_name": "Kamran Aghayev",
       "speaker_company": "Database Management unit head",
       "speaker_bio": "Kamran Aghayev is a senior database architect and DBA with over 20 years of hands-on experience in designing, operating, and migrating mission-critical database systems in large-scale telecom and government environments. He is a two-time Oracle Certified Master (OCM) and has led complex database transformations involving high-availability architectures, cross-platform migrations, and near-zero downtime cutovers under live traffic.\n\nHis work focuses on reliability-first database engineering, fail-safe migration design, rollback-ready architectures, and operational resilience for always-on systems. Kamran has been directly responsible for multiple large production migrations where database availability, data consistency, and rollback capability were treated as core design requirements rather than operational contingencies.\n\nIn addition to his technical leadership roles, he regularly speaks at international conferences and contributes to industry discussions on mission-critical data platforms, database governance, and large-scale migration strategies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -868,7 +956,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -879,7 +968,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -890,7 +980,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -901,7 +992,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -912,7 +1004,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-19"
     },
     {
       "city": "Costa Rica",
@@ -923,7 +1016,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-19"
     },
     {
       "city": "Panama",
@@ -934,7 +1028,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -945,7 +1040,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -956,7 +1052,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -967,7 +1064,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -978,7 +1076,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -989,7 +1088,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1000,7 +1100,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1011,7 +1112,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1022,7 +1124,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1033,7 +1136,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1044,7 +1148,8 @@
       "speaker_name": "Kamran Aghayev",
       "speaker_company": "Database Management unit head",
       "speaker_bio": "Kamran Aghayev is a senior database architect and DBA with over 20 years of hands-on experience in designing, operating, and migrating mission-critical database systems in large-scale telecom and government environments. He is a two-time Oracle Certified Master (OCM) and has led complex database transformations involving high-availability architectures, cross-platform migrations, and near-zero downtime cutovers under live traffic.\n\nHis work focuses on reliability-first database engineering, fail-safe migration design, rollback-ready architectures, and operational resilience for always-on systems. Kamran has been directly responsible for multiple large production migrations where database availability, data consistency, and rollback capability were treated as core design requirements rather than operational contingencies.\n\nIn addition to his technical leadership roles, he regularly speaks at international conferences and contributes to industry discussions on mission-critical data platforms, database governance, and large-scale migration strategies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1055,7 +1160,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-21"
     },
     {
       "city": "Panama",
@@ -1066,7 +1172,8 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-21"
     },
     {
       "city": "Chile",
@@ -1077,7 +1184,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1088,7 +1196,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1099,7 +1208,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1110,7 +1220,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1121,7 +1232,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1132,7 +1244,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1143,7 +1256,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1154,7 +1268,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1165,7 +1280,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1176,7 +1292,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1187,7 +1304,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1198,7 +1316,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1209,7 +1328,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1220,7 +1340,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1231,7 +1352,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1242,7 +1364,8 @@
       "speaker_name": "Eugenio Galiano",
       "speaker_company": "",
       "speaker_bio": "Eugenio Galiano es un Distinguished Product Manager con mas de 25 anos en Oracle. Espcializado en la base de datos y en la funcionalidad y herramientas de Inteligencia Artificial. Trabaja con clientes en todas partes del mundo para avanzar la adopcion de IA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1253,7 +1376,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1264,7 +1388,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1275,7 +1400,8 @@
       "speaker_name": "Eugenio Galiano",
       "speaker_company": "",
       "speaker_bio": "Eugenio Galiano es un Distinguished Product Manager con mas de 25 anos en Oracle. Espcializado en la base de datos y en la funcionalidad y herramientas de Inteligencia Artificial. Trabaja con clientes en todas partes del mundo para avanzar la adopcion de IA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1286,7 +1412,8 @@
       "speaker_name": "Akshita Gupta",
       "speaker_company": "Software Engineer MTS",
       "speaker_bio": "Speaker at EuroPython 2025 | MTS @Salesforce | MS in CS [Honors] @USC | Ex-Intern @Intel | Ex-Intern @Salesforce | Member @Rewriting The Code | Ex-Analyst at Goldman Sachs | IGDTUW Alumna | Google WTM APAC Scholar 2019 | Ex-Intern Expedia",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1297,7 +1424,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1308,7 +1436,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1319,7 +1448,8 @@
       "speaker_name": "Akshita Gupta",
       "speaker_company": "Software Engineer MTS",
       "speaker_bio": "Speaker at EuroPython 2025 | MTS @Salesforce | MS in CS [Honors] @USC | Ex-Intern @Intel | Ex-Intern @Salesforce | Member @Rewriting The Code | Ex-Analyst at Goldman Sachs | IGDTUW Alumna | Google WTM APAC Scholar 2019 | Ex-Intern Expedia",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1330,7 +1460,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1341,7 +1472,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1352,7 +1484,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1363,7 +1496,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-24"
     },
     {
       "city": "Chile",
@@ -1374,7 +1508,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-24"
     },
     {
       "city": "Brazil",
@@ -1385,7 +1520,8 @@
       "speaker_name": "Roy Salazar",
       "speaker_company": "",
       "speaker_bio": "I'm a Senior IT Professional, working since year 1998 with Oracle Products and Technology, first 6 years as Consultant Developer and Systems Analyst, then last 18+ years as DBA/Database Consultant for Oracle versions from 8i to 21c, also often have had an additional non-technical role associated for either short or long periods (ie: Delivery Lead / Acting Team Manager). Since 7 years ago I joined the Oracle ACE Program / Groundbreakers, currently I'm an Oracle ACE Pro. \n\nAlso I'm very passionate for Cybersecurity and Data Protection, I have developed expertise in Oracle Database Security, additionally I'm Oracle Cloud Infrastructure Certified Architect.\n\nBlogger at Pythian Blogs:\nhttps://blog.pythian.com/author/salazar/",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1396,7 +1532,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1407,7 +1544,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1418,7 +1556,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1429,7 +1568,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1440,7 +1580,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1451,7 +1592,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1462,7 +1604,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1473,7 +1616,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1484,7 +1628,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1495,7 +1640,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1506,7 +1652,8 @@
       "speaker_name": "Matheus Boesing",
       "speaker_company": "",
       "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1517,7 +1664,8 @@
       "speaker_name": "Marcelo Batalha",
       "speaker_company": "Grupo Giap",
       "speaker_bio": "Oracle ACE Associate, Oracle APEX Cloud Developer Certified Professional e Oracle AI Vector Search Certified Professional, com mais de 20 anos de experiência em tecnologias Oracle e governança de TI. Mestre em Engenharia de Computação e professor de pós-graduação em Desenvolvimento Full-Stack no Centro Universitário Senac, atua na liderança de iniciativas de inovação e arquitetura de soluções no Grupo Giap. Palestrante internacional em eventos como Kscope, Oracle APEX Tour Latinoamérica, LAOUC Community Tour e apresentará sessões no APEX World 2026 na Holanda e no Kscope26 em Denver/EUA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1528,7 +1676,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1539,7 +1688,8 @@
       "speaker_name": "Vinicius Grippa",
       "speaker_company": "",
       "speaker_bio": "Vinicius Grippa is a Lead Database Engineer at Readyset and an Oracle ACE Director with over 20 years of experience in the database ecosystem. Co-author of Learning MySQL, 2nd Edition, he specializes in architecting and optimizing mission-critical MySQL and MongoDB environments on Linux.\n\nPreviously, Vinicius spent 8 years at Percona as a Lead Senior Database Engineer, where he spearheaded global initiatives to solve complex performance and scalability challenges.\n\nA passionate open-source advocate, he leads the MySQL User Group in Brazil and is a regular speaker at major global stages like FOSDEM, Percona Live, and OpenInfra Summit. He holds a B.S. in Computer Science from the University of São Paulo (USP).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1550,7 +1700,8 @@
       "speaker_name": "Tércio Costa",
       "speaker_company": "Oracle DBA",
       "speaker_bio": "Oracle DBA - Enkitec",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1561,7 +1712,8 @@
       "speaker_name": "Oren Nakdimon",
       "speaker_company": "Moovit",
       "speaker_bio": "Oren Nakdimon is an Oracle ACE Director with 30+ years of extensive and continuous experience with Oracle-based systems, as a developer, DBA, manager and instructor. Oren gained lots of knowledge about databases in general, and Oracle in particular, and likes sharing it - by blogging, tweeting, presenting in local and international conferences, and more. \nHe is the database architect of Moovit, where he has been working since 2012.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1572,7 +1724,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1583,7 +1736,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1594,7 +1748,8 @@
       "speaker_name": "Ricardo Portilho Proni",
       "speaker_company": "PowerTuning",
       "speaker_bio": "Portilho was the 1st Oracle ACE in Brazil, has decades of experience in Oracle and MySQL as both a Consultant and Instructor. Today he works as Head of Oracle and MySQL at Power Tuning",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1605,7 +1760,8 @@
       "speaker_name": "Øyvind Isene",
       "speaker_company": "Enesi Consulting AS",
       "speaker_bio": "Øyvind Isene is an independent consultant living in Arendal, Norway.  He works mainly with the Oracle database, both as a DBA and a developer.  He started as an Oracle DBA in 1997 and has managed Oracle on a few Unix dialects, mostly on Linux. These days it is more about the data, how to explore them and making life easier for other people by doing the right things in the database. He enjoys analytics, performance optimisation, troubleshooting and helping developers get along with the database.  ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1616,7 +1772,8 @@
       "speaker_name": "Mario Barduchi",
       "speaker_company": "Dell Technologies",
       "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1627,7 +1784,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1638,7 +1796,8 @@
       "speaker_name": "Jhonata E Lamim",
       "speaker_company": "",
       "speaker_bio": "Atuo em gerenciamento de projetos e arquitetura de TI. Trabalhando com ambientes de banco de dados Oracle desde 2010, possuo expertise na implementação, migração, upgrade e suporte do Oracle Database em ambientes multiplataforma, tanto em nuvem quanto on-premise, bem como em engineered systems.\n\nComo professor, já lecionei Modelagem de Dados e Sistemas de Gerenciamento de Banco de Dados no curso de Análise e Desenvolvimento de Sistemas. Atualmente, ministro a disciplina de Banco de Dados no programa Jovem Programador do SENAC em Brusque, SC.\n\nSou autor do blog www.lamimdba.com.br\n, reconhecido pela Oracle Technology Network.\n\nReconhecido como Oracle ACE Pro.",
-      "oracle_ace": "Oracle ACE Pro"
+      "oracle_ace": "Oracle ACE Pro",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1649,7 +1808,8 @@
       "speaker_name": "José Valdézio",
       "speaker_company": "Accenture Enkitec Group",
       "speaker_bio": "Working with Oracle since 2005 (starting with version 9i), built a solid career across companies of all sizes and in multiple industries, including telecom, finance, and energy.\nOver the years, he has worked as an Oracle Database Administrator in highly critical OLTP environments, leading projects on upgrades, migrations, patching, security, and health checks. Participating in both national and international initiatives, always focused on delivering results for customers — helping transform data into security, performance, revenue, and ultimately, customer satisfaction.\nHelping companies achieve stable, efficient, and well managed database environments, consistently delivering high-value\noutcomes.\n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1660,7 +1820,8 @@
       "speaker_name": "Bruno Tarnowski",
       "speaker_company": "Pythian",
       "speaker_bio": "I’m from Blumenau, Santa Catarina, Brazil. I’ve been working with databases since 2012 — mostly SQL Server and Oracle — though I’ve had my fair share of adventures with MySQL, Postgres, and a couple of others when life demanded it.\n\nThese days (and for quite a while now), my main focus is Oracle Database. It’s the most scalable database in the world and it never stops evolving. That means I’m always studying, experimenting, and trying to keep up. If you work with Oracle development, you know exactly what I mean — Oracle releases way more features than anyone can realistically master. ",
-      "oracle_ace": "Oracle ACE associate"
+      "oracle_ace": "Oracle ACE associate",
+      "date": "2026-08-29"
     },
     {
       "city": "Brazil",
@@ -1671,7 +1832,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-29"
     },
     {
       "city": "Uruguay",
@@ -1682,7 +1844,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1693,7 +1856,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1704,7 +1868,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1715,7 +1880,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1726,7 +1892,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1737,7 +1904,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1748,7 +1916,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1759,7 +1928,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-31"
     },
     {
       "city": "Uruguay",
@@ -1770,7 +1940,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-31"
     },
     {
       "city": "Argentina",
@@ -1781,7 +1952,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1792,7 +1964,8 @@
       "speaker_name": "Roy Salazar",
       "speaker_company": "",
       "speaker_bio": "I'm a Senior IT Professional, working since year 1998 with Oracle Products and Technology, first 6 years as Consultant Developer and Systems Analyst, then last 18+ years as DBA/Database Consultant for Oracle versions from 8i to 21c, also often have had an additional non-technical role associated for either short or long periods (ie: Delivery Lead / Acting Team Manager). Since 7 years ago I joined the Oracle ACE Program / Groundbreakers, currently I'm an Oracle ACE Pro. \n\nAlso I'm very passionate for Cybersecurity and Data Protection, I have developed expertise in Oracle Database Security, additionally I'm Oracle Cloud Infrastructure Certified Architect.\n\nBlogger at Pythian Blogs:\nhttps://blog.pythian.com/author/salazar/",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1803,7 +1976,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1814,7 +1988,8 @@
       "speaker_name": "Maiquel Oliveira",
       "speaker_company": "Pythian",
       "speaker_bio": "Maiquel (Mike) is a Senior IT Database Consultant with 20 years of experience, including a decade focused on Oracle Middleware and Databases. \nAn expert in Fusion Middleware and Oracle Databases,  he brings platform-agnostic expertise across Linux, Windows, and IBM AIX to solve complex infrastructure and administration challenges.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1825,7 +2000,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1836,7 +2012,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1847,7 +2024,8 @@
       "speaker_name": "Edelweiss Kammermann",
       "speaker_company": "",
       "speaker_bio": "Edelweiss Kammermann is a Data Analytics, AI & Machine Learning specialist with over 25 years of consulting, project management and team lead experience.  \n\nIn the last 15 years, she has been building, and managing Analytics and Machine Learning global teams for US and British companies. In her role as SME she offers analysis, recommendations and advise to clients regarding their Analytics & ML ecosystem & roadmap.\n\nEdelweiss is a frequent speaker at international technical conferences in USA, Europe and Latin America. Her sessions include talks on Analytics, Data Integration, AI & Machine Learning and Cloud solutions in English, Spanish and Portuguese.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1858,7 +2036,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1869,7 +2048,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1880,7 +2060,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1891,7 +2072,8 @@
       "speaker_name": "José Manuel Preda",
       "speaker_company": "",
       "speaker_bio": "CEO SOFT San Luis, Manager at DASC, Oracle Technology Expert, Development Teams Mentor, Consultant, International Speaker, Oracle APEX Community leader for APEX and ♠ Oracle ACE Pro\nCuenta con más de 25 años de experiencia en tecnologías Oracle , 17 de ellos con Oracle APEX creando soluciones tecnológicas para Gobierno y Empresas Privadas. Ha capacitado a +900 desarrolladores en Oracle APEX en los últimos 3 años y brindado mas de 30 conferencias internacionales",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1902,7 +2084,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1913,7 +2096,8 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1924,7 +2108,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1935,7 +2120,8 @@
       "speaker_name": "Markus Michalewicz",
       "speaker_company": "VP",
       "speaker_bio": "Markus Michalewicz is a Vice President of Product Management in Oracle AI Database Development at Oracle, where he leads High Availability, Scalability, Maximum Availability Architecture (MAA), and Cloud Migration initiatives. Over more than two decades at Oracle, he has focused on delivering continuous availability for mission-critical OLTP, decision support, and AI systems worldwide using technologies such as Oracle Real Application Clusters (RAC), Application Continuity, Active Data Guard, and Zero Downtime Migration (ZDM). Working closely with customers and engineering teams, Markus has helped shape Oracle’s on-premises and cloud database experience. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1946,7 +2132,8 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1957,7 +2144,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1968,7 +2156,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-09-02"
     },
     {
       "city": "Argentina",
@@ -1979,7 +2168,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-09-02"
     },
     {
       "city": "Paraguay",
@@ -1990,7 +2180,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2001,7 +2192,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2012,7 +2204,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2023,7 +2216,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2034,7 +2228,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2045,7 +2240,8 @@
       "speaker_name": "Rolando Carrasco",
       "speaker_company": "CTO",
       "speaker_bio": "Rolando Carrasco is a technology enthusiastic whose work has been focused on Services Orientation, Distributed Systems, Integration, Event Driven Architecture. He has over 20 years of experience in the IT industry and has worked for companies like HP & Oracle. \nRolando is a constant speaker in international conferences and a constant contributor within the community with blogs, videos, webinars, podcasts, presentations, and event coordination.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2056,7 +2252,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2067,7 +2264,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2078,7 +2276,8 @@
       "speaker_name": "José Manuel Preda",
       "speaker_company": "",
       "speaker_bio": "CEO SOFT San Luis, Manager at DASC, Oracle Technology Expert, Development Teams Mentor, Consultant, International Speaker, Oracle APEX Community leader for APEX and ♠ Oracle ACE Pro\nCuenta con más de 25 años de experiencia en tecnologías Oracle , 17 de ellos con Oracle APEX creando soluciones tecnológicas para Gobierno y Empresas Privadas. Ha capacitado a +900 desarrolladores en Oracle APEX en los últimos 3 años y brindado mas de 30 conferencias internacionales",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2089,7 +2288,8 @@
       "speaker_name": "Eugenio Galiano",
       "speaker_company": "",
       "speaker_bio": "Eugenio Galiano es un Distinguished Product Manager con mas de 25 anos en Oracle. Espcializado en la base de datos y en la funcionalidad y herramientas de Inteligencia Artificial. Trabaja con clientes en todas partes del mundo para avanzar la adopcion de IA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2100,7 +2300,8 @@
       "speaker_name": "José Manuel Preda",
       "speaker_company": "",
       "speaker_bio": "CEO SOFT San Luis, Manager at DASC, Oracle Technology Expert, Development Teams Mentor, Consultant, International Speaker, Oracle APEX Community leader for APEX and ♠ Oracle ACE Pro\nCuenta con más de 25 años de experiencia en tecnologías Oracle , 17 de ellos con Oracle APEX creando soluciones tecnológicas para Gobierno y Empresas Privadas. Ha capacitado a +900 desarrolladores en Oracle APEX en los últimos 3 años y brindado mas de 30 conferencias internacionales",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2111,7 +2312,8 @@
       "speaker_name": "Akshita Gupta",
       "speaker_company": "Software Engineer MTS",
       "speaker_bio": "Speaker at EuroPython 2025 | MTS @Salesforce | MS in CS [Honors] @USC | Ex-Intern @Intel | Ex-Intern @Salesforce | Member @Rewriting The Code | Ex-Analyst at Goldman Sachs | IGDTUW Alumna | Google WTM APAC Scholar 2019 | Ex-Intern Expedia",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2122,7 +2324,8 @@
       "speaker_name": "Jayson Hanes",
       "speaker_company": "",
       "speaker_bio": "\nAs Senior Principal Product Manager for Oracle APEX, Jayson Hanes is in his 7th year working at Oracle, and has been using APEX for many years. Jayson works closely with the core APEX product development team, and supports many internal Oracle LOB and external customer APEX development teams. He continuously endeavors to learn about customer use-cases and requirements to effectively better understand how to help shape future releases of APEX. ",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2133,7 +2336,8 @@
       "speaker_name": "Akshita Gupta",
       "speaker_company": "Software Engineer MTS",
       "speaker_bio": "Speaker at EuroPython 2025 | MTS @Salesforce | MS in CS [Honors] @USC | Ex-Intern @Intel | Ex-Intern @Salesforce | Member @Rewriting The Code | Ex-Analyst at Goldman Sachs | IGDTUW Alumna | Google WTM APAC Scholar 2019 | Ex-Intern Expedia",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2144,7 +2348,8 @@
       "speaker_name": "Richard Martens",
       "speaker_company": "the DOC",
       "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2155,7 +2360,8 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2166,7 +2372,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2177,7 +2384,8 @@
       "speaker_name": "Oren Nakdimon",
       "speaker_company": "Moovit",
       "speaker_bio": "Oren Nakdimon is an Oracle ACE Director with 30+ years of extensive and continuous experience with Oracle-based systems, as a developer, DBA, manager and instructor. Oren gained lots of knowledge about databases in general, and Oracle in particular, and likes sharing it - by blogging, tweeting, presenting in local and international conferences, and more. \nHe is the database architect of Moovit, where he has been working since 2012.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2188,7 +2396,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2199,7 +2408,8 @@
       "speaker_name": "Eugenio Galiano",
       "speaker_company": "",
       "speaker_bio": "Eugenio Galiano es un Distinguished Product Manager con mas de 25 anos en Oracle. Espcializado en la base de datos y en la funcionalidad y herramientas de Inteligencia Artificial. Trabaja con clientes en todas partes del mundo para avanzar la adopcion de IA.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2210,7 +2420,8 @@
       "speaker_name": "Ramu Murakami Gutierrez",
       "speaker_company": "Senior Product Manager",
       "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2221,7 +2432,8 @@
       "speaker_name": "Connor McDonald",
       "speaker_company": "Database Advocate",
       "speaker_bio": "Ever being frustrated as a child by the single kilobyte of RAM in his ZX80 computer, Connor McDonald has loved the challenges that come with storing data, which ultimately led to a career in database development. When Y2K did not end the world as people thought, he started presenting on his passions - SQL and Databases, and discovered that he loved helping and sharing his knowledge with the developer community. Since then he has spoken at over 150 conferences around the world. He splits the rest of his time between helping developers via StackOverflow and on asktom.oracle.com, creating YouTube videos and blog posts, and helping his rescue greyhound with treats, walks and cuddles.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2232,7 +2444,8 @@
       "speaker_name": "Oren Nakdimon",
       "speaker_company": "Moovit",
       "speaker_bio": "Oren Nakdimon is an Oracle ACE Director with 30+ years of extensive and continuous experience with Oracle-based systems, as a developer, DBA, manager and instructor. Oren gained lots of knowledge about databases in general, and Oracle in particular, and likes sharing it - by blogging, tweeting, presenting in local and international conferences, and more. \nHe is the database architect of Moovit, where he has been working since 2012.",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2243,7 +2456,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2254,7 +2468,8 @@
       "speaker_name": "Rita Nunez",
       "speaker_company": "Tecnix Solutions",
       "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
-      "oracle_ace": null
+      "oracle_ace": null,
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2265,7 +2480,8 @@
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2276,7 +2492,8 @@
       "speaker_name": "Niall McPhillips",
       "speaker_company": "",
       "speaker_bio": "Niall McPhillips es Oracle ACE Director y miembro de Symposium 42. Cuenta con una amplia trayectoria como orador en conferencias internacionales, donde ha presentado sobre diversos temas relacionados con el uso de Oracle Database y sus tecnologías, entre ellas APEX, ORDS, PL/SQL, REST, JSON, Oracle Text, SODA y Multimedia, así como sobre su experiencia en la implementación de grandes proyectos APEX.\n\nTrabaja con Oracle Database desde 1989, utiliza tecnologías web desarrolladas con PL/SQL desde 1995 y desarrolla con Oracle APEX desde 2005.\n\nHa liderado y desarrollado numerosas aplicaciones de gran escala y multilingües para empresas y organizaciones multinacionales en todo el mundo. Es un firme defensor de las soluciones basadas en PL/SQL y APEX, destacando su estabilidad, escalabilidad y velocidad de desarrollo.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2287,7 +2504,8 @@
       "speaker_name": "Gavin Soorma",
       "speaker_company": "",
       "speaker_bio": "Oracle ACE Director with over 30 years of industry experience specializing in High Availability solutions, Performance Tuning and Data Integration to name a few areas. Hosts a very popular blog website which has attracted over 13 million visitors",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     },
     {
       "city": "Paraguay",
@@ -2298,7 +2516,8 @@
       "speaker_name": "Mario Barduchi",
       "speaker_company": "Dell Technologies",
       "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
-      "oracle_ace": "Oracle ACE Director"
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-26"
     }
   ]
 }

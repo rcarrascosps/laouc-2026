@@ -5,19 +5,20 @@ import type { AgendaData } from '../src/data';
 const DATA: AgendaData = {
   generated_at: '2026-06-20T00:00:00Z',
   cities: ['Mexico', 'Chile', 'Brazil'],
+  city_dates: { Mexico: '2026-08-14', Chile: '2026-08-24', Brazil: '2026-08-29' },
   sessions: [
     {
-      city: 'Mexico', time_slot: null, track: null, is_keynote: true,
+      city: 'Mexico', date: '2026-08-14', time_slot: null, track: null, is_keynote: true,
       title: 'Keynote MX', speaker_name: 'Eugenio Galiano', speaker_company: 'Oracle',
       speaker_bio: 'AI expert.', oracle_ace: null,
     },
     {
-      city: 'Mexico', time_slot: '09:45 – 10:30', track: 'APEX', is_keynote: false,
+      city: 'Mexico', date: '2026-08-14', time_slot: '09:45 – 10:30', track: 'APEX', is_keynote: false,
       title: 'APEX Talk', speaker_name: 'Jayson Hanes', speaker_company: 'Oracle',
       speaker_bio: 'APEX product manager.', oracle_ace: null,
     },
     {
-      city: 'Chile', time_slot: null, track: null, is_keynote: true,
+      city: 'Chile', date: '2026-08-24', time_slot: null, track: null, is_keynote: true,
       title: 'Keynote CL', speaker_name: 'Eugenio Galiano', speaker_company: 'Oracle',
       speaker_bio: 'AI expert.', oracle_ace: null,
     },
@@ -25,8 +26,12 @@ const DATA: AgendaData = {
 };
 
 describe('listCities', () => {
-  it('returns the cities list', () => {
-    expect(listCities(DATA)).toEqual(['Mexico', 'Chile', 'Brazil']);
+  it('returns each city with its event date', () => {
+    expect(listCities(DATA)).toEqual([
+      { city: 'Mexico', date: '2026-08-14' },
+      { city: 'Chile', date: '2026-08-24' },
+      { city: 'Brazil', date: '2026-08-29' },
+    ]);
   });
 });
 

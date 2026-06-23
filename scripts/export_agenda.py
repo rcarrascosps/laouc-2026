@@ -19,6 +19,20 @@ OUTPUT_JSON = Path(__file__).resolve().parent.parent / "data" / "agenda-publica.
 CITIES = ['Mexico', 'Guatemala', 'Costa Rica', 'Panama', 'Chile',
           'Brazil', 'Uruguay', 'Argentina', 'Paraguay']
 
+# Official tour stop date per city (organizer-confirmed, 2026-06-23). Each city's
+# sessions all happen on this single calendar day, in that city's local time.
+CITY_DATES = {
+    'Mexico': '2026-08-14',
+    'Guatemala': '2026-08-17',
+    'Costa Rica': '2026-08-19',
+    'Panama': '2026-08-21',
+    'Chile': '2026-08-24',
+    'Paraguay': '2026-08-26',
+    'Brazil': '2026-08-29',
+    'Uruguay': '2026-08-31',
+    'Argentina': '2026-09-02',
+}
+
 
 def is_confirmed(fill_rgb):
     return fill_rgb == GREEN_FILL
@@ -174,11 +188,15 @@ def main():
     for city in CITIES:
         ws = wb[city]
         raw_entries = extract_city_sessions(ws)
-        all_public_sessions.extend(build_public_sessions(raw_entries, speaker_lookup))
+        city_sessions = build_public_sessions(raw_entries, speaker_lookup)
+        for session in city_sessions:
+            session['date'] = CITY_DATES[city]
+        all_public_sessions.extend(city_sessions)
 
     output = {
         'generated_at': datetime.now(timezone.utc).isoformat(),
         'cities': CITIES,
+        'city_dates': CITY_DATES,
         'sessions': all_public_sessions,
     }
     OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)

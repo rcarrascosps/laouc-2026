@@ -1,5 +1,6 @@
 export interface PublicSession {
   city: string;
+  date: string;
   time_slot: string | null;
   track: string | null;
   is_keynote: boolean;
@@ -13,6 +14,7 @@ export interface PublicSession {
 export interface AgendaData {
   generated_at: string;
   cities: string[];
+  city_dates: Record<string, string>;
   sessions: PublicSession[];
 }
 
