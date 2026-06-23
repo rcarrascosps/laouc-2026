@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T20:27:57.685756+00:00",
+  "generated_at": "2026-06-23T20:57:01.389936+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -122,18 +122,6 @@
     {
       "city": "Mexico",
       "time_slot": "11:15 – 12:00",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "Power Up Your Builder: What APEX Builder Extensions Can Really Do",
-      "speaker_name": "Richard Martens",
-      "speaker_company": "the DOC",
-      "speaker_bio": "Richard Martens has been involved in information technology for more than 20 years. He started as a web developer using the Oracle database as no more than data storage. Richard has been responsible for major European multilingual websites and has been working with the Oracle database since 2000. During those years, he developed himself using a multitude of technologies and specialised in PL/SQL and Oracle APEX. Richard has been working primarily with PLSQL and APEX since 2005. With APEX, he combines the things he loves most: the Oracle database and web technologies.",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "11:15 – 12:00",
       "track": "Base de Datos",
       "is_keynote": false,
       "title": "Amazing Free (AI) Tools for Oracle DBAs",
@@ -164,18 +152,6 @@
       "speaker_name": "Hector Joaquin Andrade Rodriguez",
       "speaker_company": "",
       "speaker_bio": "Héctor is a seasoned BI Senior Principal Consultant with over 13 years of experience delivering end-to-end Business Intelligence and Data Analytics solutions. He specializes in data analytics and data modeling and development, leveraging technologies such as , OBIEE, OAS, OAC, Oracle Fusion Analytics (FDI), Informatica PowerCenter, Oracle Data Integrator (ODI), among others",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "12:00 – 12:45",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "How to use a relational database for your JSON documents",
-      "speaker_name": "Patrick Barel",
-      "speaker_company": "Qualogy",
-      "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
@@ -230,36 +206,12 @@
     {
       "city": "Mexico",
       "time_slot": "14:30 – 15:15",
-      "track": "Cloud & Diff. Topics",
-      "is_keynote": false,
-      "title": "Why Most ERP Projects Fail at Analytics (and How to Be the Exception)",
-      "speaker_name": "Basheer Khan",
-      "speaker_company": "CEO",
-      "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "14:30 – 15:15",
       "track": "Inteligencia Artificial",
       "is_keynote": false,
       "title": "Oracle's AI Solutions Embedded in Fusion Applications: Taking business to the next level",
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "15:15 – 16:00",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "Seamless Application Upgrades with Oracle JSON-Relational Duality Views: Supporting Multiple API Ver",
-      "speaker_name": "Iñaqui Medina",
-      "speaker_company": "Oracle",
-      "speaker_bio": "Iñaqui Medina is a software development professional with more than 25 years of experience building and evolving enterprise systems. Over the past decade, at Oracle, he has led multiple database engineering teams focused on semistructured data management, working extensively with XML, JSON, natural language data, object-relational models, and database extensibility.\n\nHis work centers on helping organizations modernize legacy architectures, bridge relational and document paradigms, and design scalable data platforms that handle increasingly complex and flexible data structures. Iñaqui brings a practical, real-world perspective to topics such as hybrid data models, enterprise modernization, and the future of data-driven application design.",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
@@ -284,18 +236,6 @@
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "16:00 – 16:45",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "Optimizing Data Storage and Performance: Migrating JSON Documents to Relational Tables",
-      "speaker_name": "Iñaqui Medina",
-      "speaker_company": "Oracle",
-      "speaker_bio": "Iñaqui Medina is a software development professional with more than 25 years of experience building and evolving enterprise systems. Over the past decade, at Oracle, he has led multiple database engineering teams focused on semistructured data management, working extensively with XML, JSON, natural language data, object-relational models, and database extensibility.\n\nHis work centers on helping organizations modernize legacy architectures, bridge relational and document paradigms, and design scalable data platforms that handle increasingly complex and flexible data structures. Iñaqui brings a practical, real-world perspective to topics such as hybrid data models, enterprise modernization, and the future of data-driven application design.",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
