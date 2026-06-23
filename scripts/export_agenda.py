@@ -107,11 +107,19 @@ def is_keynote_row(ws, row_idx):
     return False
 
 
+def find_header_row(ws):
+    for row in range(1, ws.max_row + 1):
+        if ws.cell(row=row, column=1).value == 'Horario':
+            return row
+    raise ValueError(f"No 'Horario' header row found in sheet '{ws.title}'")
+
+
 def extract_city_sessions(ws):
     city = ws.title
-    track_names = {col: ws.cell(row=2, column=col).value for col in range(2, 6)}
+    header_row = find_header_row(ws)
+    track_names = {col: ws.cell(row=header_row, column=col).value for col in range(2, 6)}
     entries = []
-    for row in range(3, ws.max_row + 1):
+    for row in range(header_row + 1, ws.max_row + 1):
         time_slot = ws.cell(row=row, column=1).value
         keynote = is_keynote_row(ws, row)
         for col in range(2, 6):
