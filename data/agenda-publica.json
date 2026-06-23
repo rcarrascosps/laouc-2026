@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T15:18:40.590251+00:00",
+  "generated_at": "2026-06-23T15:59:45.386926+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -114,6 +114,17 @@
     {
       "city": "Mexico",
       "time_slot": "11:15 – 12:00",
+      "track": "Base de Datos",
+      "is_keynote": false,
+      "title": "Amazing Free (AI) Tools for Oracle DBAs",
+      "speaker_name": "Matheus Boesing",
+      "speaker_company": "",
+      "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
+      "oracle_ace": null
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "11:15 – 12:00",
       "track": "Cloud & Diff. Topics",
       "is_keynote": false,
       "title": "Mastering the Oracle Java Ecosystem: Centralized Troubleshooting with a DevTools Machine",
@@ -180,6 +191,17 @@
     {
       "city": "Mexico",
       "time_slot": "14:30 – 15:15",
+      "track": "Base de Datos",
+      "is_keynote": false,
+      "title": "Competitive landscape of distributed databases",
+      "speaker_name": "Francisco Munoz Alvarez",
+      "speaker_company": "Oracle",
+      "speaker_bio": "Francisco Munoz Alvarez is a global technology leader specializing in Oracle Database High Availability, Disaster Recovery, and Maximum Availability Architecture (MAA). As a Distinguished Product Manager within Oracle’s Mission-Critical Data team, he leads global customer adoption strategies that help enterprises protect their most valuable asset: data.\nFrancisco is a recognized industry thought leader, international keynote speaker, and published writer known for translating complex technical concepts into practical business strategies. His work spans global financial institutions, government agencies, and enterprise organizations, helping them design resilient, scalable, and always-available data platforms.\n\nComplementing his technology leadership, Francisco holds an MBA with a strong focus on marketing and business strategy, allowing him to bridge technical innovation with executive decision-making.\n\nOutside the corporate world, Francisco competes internationally representing Australia in Dragon Boat World Championships. This elite sporting experience heavily influences his leadership philosophy, emphasizing teamwork, discipline, precision, and performance under pressure.\n\nFrancisco’s presentations uniquely blend real-world technology resilience lessons with high-performance athletic principles, inspiring audiences to build systems, teams, and organizations that thrive when failure is not an option.\n",
+      "oracle_ace": null
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "14:30 – 15:15",
       "track": "Cloud & Diff. Topics",
       "is_keynote": false,
       "title": "Why Most ERP Projects Fail at Analytics (and How to Be the Exception)",
@@ -215,10 +237,10 @@
       "time_slot": "15:15 – 16:00",
       "track": "Base de Datos",
       "is_keynote": false,
-      "title": "Competitive landscape of distributed databases",
-      "speaker_name": "Francisco Munoz Alvarez",
-      "speaker_company": "Oracle",
-      "speaker_bio": "Francisco Munoz Alvarez is a global technology leader specializing in Oracle Database High Availability, Disaster Recovery, and Maximum Availability Architecture (MAA). As a Distinguished Product Manager within Oracle’s Mission-Critical Data team, he leads global customer adoption strategies that help enterprises protect their most valuable asset: data.\nFrancisco is a recognized industry thought leader, international keynote speaker, and published writer known for translating complex technical concepts into practical business strategies. His work spans global financial institutions, government agencies, and enterprise organizations, helping them design resilient, scalable, and always-available data platforms.\n\nComplementing his technology leadership, Francisco holds an MBA with a strong focus on marketing and business strategy, allowing him to bridge technical innovation with executive decision-making.\n\nOutside the corporate world, Francisco competes internationally representing Australia in Dragon Boat World Championships. This elite sporting experience heavily influences his leadership philosophy, emphasizing teamwork, discipline, precision, and performance under pressure.\n\nFrancisco’s presentations uniquely blend real-world technology resilience lessons with high-performance athletic principles, inspiring audiences to build systems, teams, and organizations that thrive when failure is not an option.\n",
+      "title": "Conecta tus datos con grafos de conocimiento y vectores",
+      "speaker_name": "Ramu Murakami Gutierrez",
+      "speaker_company": "Senior Product Manager",
+      "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
       "oracle_ace": null
     },
     {
@@ -246,12 +268,12 @@
     {
       "city": "Mexico",
       "time_slot": "16:00 – 16:45",
-      "track": "Base de Datos",
+      "track": "Cloud & Diff. Topics",
       "is_keynote": false,
-      "title": "Conecta tus datos con grafos de conocimiento y vectores",
-      "speaker_name": "Ramu Murakami Gutierrez",
-      "speaker_company": "Senior Product Manager",
-      "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
+      "title": "Vector Wars: Performance Strikes Back",
+      "speaker_name": "Matheus Boesing",
+      "speaker_company": "",
+      "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
       "oracle_ace": null
     },
     {
@@ -312,17 +334,6 @@
     {
       "city": "Mexico",
       "time_slot": "17:30 – 18:15",
-      "track": "Cloud & Diff. Topics",
-      "is_keynote": false,
-      "title": "Oracle 26ai – To Infinity and Far Beyond Vector Search",
-      "speaker_name": "Mario Barduchi",
-      "speaker_company": "Dell Technologies",
-      "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
-      "oracle_ace": "Oracle ACE Director"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "18:15 – 19:00",
       "track": "Base de Datos",
       "is_keynote": false,
       "title": "From Data to Decisions: How Oracle AI Factory Accelerates Enterprise Transformation",
@@ -330,6 +341,17 @@
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
       "oracle_ace": null
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "17:30 – 18:15",
+      "track": "Cloud & Diff. Topics",
+      "is_keynote": false,
+      "title": "Oracle 26ai – To Infinity and Far Beyond Vector Search",
+      "speaker_name": "Mario Barduchi",
+      "speaker_company": "Dell Technologies",
+      "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
+      "oracle_ace": "Oracle ACE Director"
     },
     {
       "city": "Mexico",
