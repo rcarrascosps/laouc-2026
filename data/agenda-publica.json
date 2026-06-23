@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T20:57:01.389936+00:00",
+  "generated_at": "2026-06-23T21:28:30.549484+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -206,12 +206,36 @@
     {
       "city": "Mexico",
       "time_slot": "14:30 – 15:15",
+      "track": "Cloud & Diff. Topics",
+      "is_keynote": false,
+      "title": "Vector Wars: Performance Strikes Back",
+      "speaker_name": "Matheus Boesing",
+      "speaker_company": "",
+      "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
+      "oracle_ace": null,
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "14:30 – 15:15",
       "track": "Inteligencia Artificial",
       "is_keynote": false,
       "title": "Oracle's AI Solutions Embedded in Fusion Applications: Taking business to the next level",
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
+      "oracle_ace": null,
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "15:15 – 16:00",
+      "track": "APEX",
+      "is_keynote": false,
+      "title": "Oracle Database 26ai - What's new",
+      "speaker_name": "Patrick Barel",
+      "speaker_company": "Qualogy",
+      "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
@@ -230,12 +254,36 @@
     {
       "city": "Mexico",
       "time_slot": "15:15 – 16:00",
+      "track": "Cloud & Diff. Topics",
+      "is_keynote": false,
+      "title": "Real-Time AI: Consolidating Vector Data with OGG 26ai",
+      "speaker_name": "Gilson Martins",
+      "speaker_company": "GGBR Solutions",
+      "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
+      "oracle_ace": "Oracle ACE Director",
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "15:15 – 16:00",
       "track": "Inteligencia Artificial",
       "is_keynote": false,
       "title": "The AI DBA: Exploring the New Oracle Database Private Agent Factory",
       "speaker_name": "Nelson Calero",
       "speaker_company": "Principal Consultant",
       "speaker_bio": "Nelson Calero is a senior data engineer with 20+ years of extensive experience in Oracle, PostgreSQL, Google Cloud, and other database technologies.  A seasoned presenter and community leader, he shares his insight and expertise on database products at various events globally.  Nelson works as a Principal Consultant for Pythian - as the last technical team escalation point handling the Pythian client's most challenging and serious database technical problems.\n\nHe is an Oracle ACE Director and Oracle Certified Professional, a member of the Board of the Latin American Oracle User Community (LAOUC), and a leader of the Uruguayan Oracle User Group (UYOUG).",
+      "oracle_ace": null,
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "16:00 – 16:45",
+      "track": "APEX",
+      "is_keynote": false,
+      "title": "IA Impulsada por Contexto: Integra Ubicación con Oracle Spatial",
+      "speaker_name": "Ramu Murakami Gutierrez",
+      "speaker_company": "Senior Product Manager",
+      "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
@@ -256,11 +304,11 @@
       "time_slot": "16:00 – 16:45",
       "track": "Cloud & Diff. Topics",
       "is_keynote": false,
-      "title": "Vector Wars: Performance Strikes Back",
-      "speaker_name": "Matheus Boesing",
-      "speaker_company": "",
-      "speaker_bio": "Battle-tested Oracle Database specialist with 15+ years of experience in performance tuning, high availability, mission-critical operations, and cloud modernization. Oracle ACE Director Alumni, international speaker across the globe and professor.\nOver 20,000+ hours supporting production environments and 2,000+ hours delivering technical training in database engineering, cloud platforms, and AI-enhanced operations. Passionate about transforming reactive firefighting into strategic, performance-driven architecture.\nEngineering performance. Enabling intelligence.",
-      "oracle_ace": null,
+      "title": "Oracle 26ai – To Infinity and Far Beyond Vector Search",
+      "speaker_name": "Mario Barduchi",
+      "speaker_company": "Dell Technologies",
+      "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
+      "oracle_ace": "Oracle ACE Director",
       "date": "2026-08-14"
     },
     {
@@ -272,18 +320,6 @@
       "speaker_name": "Vinicius Grippa",
       "speaker_company": "",
       "speaker_bio": "Vinicius Grippa is a Lead Database Engineer at Readyset and an Oracle ACE Director with over 20 years of experience in the database ecosystem. Co-author of Learning MySQL, 2nd Edition, he specializes in architecting and optimizing mission-critical MySQL and MongoDB environments on Linux.\n\nPreviously, Vinicius spent 8 years at Percona as a Lead Senior Database Engineer, where he spearheaded global initiatives to solve complex performance and scalability challenges.\n\nA passionate open-source advocate, he leads the MySQL User Group in Brazil and is a regular speaker at major global stages like FOSDEM, Percona Live, and OpenInfra Summit. He holds a B.S. in Computer Science from the University of São Paulo (USP).",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "16:45 – 17:30",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "Oracle Database 26ai - What's new",
-      "speaker_name": "Patrick Barel",
-      "speaker_company": "Qualogy",
-      "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
@@ -304,7 +340,7 @@
       "time_slot": "16:45 – 17:30",
       "track": "Cloud & Diff. Topics",
       "is_keynote": false,
-      "title": "Real-Time AI: Consolidating Vector Data with OGG 26ai",
+      "title": "From SQL to ChatGPT: The Story of Data, Databases, and Artificial Intelligence",
       "speaker_name": "Gilson Martins",
       "speaker_company": "GGBR Solutions",
       "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
@@ -326,18 +362,6 @@
     {
       "city": "Mexico",
       "time_slot": "17:30 – 18:15",
-      "track": "APEX",
-      "is_keynote": false,
-      "title": "IA Impulsada por Contexto: Integra Ubicación con Oracle Spatial",
-      "speaker_name": "Ramu Murakami Gutierrez",
-      "speaker_company": "Senior Product Manager",
-      "speaker_bio": "Ramu Murakami Gutierrez is a Senior Product Manager at Oracle. She is part of the spatial and graph team and is passionate about building products that enable users to understand complex data intuitively and visually compellingly. Previously, she was a solution engineer focused on data management and worked on projects involving different Oracle solutions, such as Oracle Golden Gate. She has a bachelor's in International Affairs from Florida State University and a Master's in International Affairs from Florida International University.",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "17:30 – 18:15",
       "track": "Base de Datos",
       "is_keynote": false,
       "title": "From Data to Decisions: How Oracle AI Factory Accelerates Enterprise Transformation",
@@ -350,18 +374,6 @@
     {
       "city": "Mexico",
       "time_slot": "17:30 – 18:15",
-      "track": "Cloud & Diff. Topics",
-      "is_keynote": false,
-      "title": "Oracle 26ai – To Infinity and Far Beyond Vector Search",
-      "speaker_name": "Mario Barduchi",
-      "speaker_company": "Dell Technologies",
-      "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
-      "oracle_ace": "Oracle ACE Director",
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "17:30 – 18:15",
       "track": "Inteligencia Artificial",
       "is_keynote": false,
       "title": "Unlock Strategic Value with Enterprise AI - Oracle Analytics and AI Data Platform",
@@ -369,18 +381,6 @@
       "speaker_company": "",
       "speaker_bio": "",
       "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "18:15 – 19:00",
-      "track": "Cloud & Diff. Topics",
-      "is_keynote": false,
-      "title": "From SQL to ChatGPT: The Story of Data, Databases, and Artificial Intelligence",
-      "speaker_name": "Gilson Martins",
-      "speaker_company": "GGBR Solutions",
-      "speaker_bio": "With 20 years of experience in IT, I have spent the past 18 years specializing in Oracle Database Administration, working with versions from 8i to 23ai and earning multiple certifications (OCA, OCP, OCE, OCS). I am an Oracle GoldenGate Certified Expert with 14 years of hands-on experience, from OGG 10g to 23ai.",
-      "oracle_ace": "Oracle ACE Director",
       "date": "2026-08-14"
     },
     {
