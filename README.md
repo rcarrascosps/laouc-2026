@@ -23,6 +23,17 @@ spreadsheet, or API key required.
 claude mcp add --transport http laouc-agenda https://laouc-agenda-mcp.rcarrascosps.workers.dev
 ```
 
+## Other MCP clients
+
+This isn't a Claude-only server — it's a standard MCP server using the
+[Streamable HTTP transport](https://modelcontextprotocol.io/), with no auth required.
+Any MCP client that supports remote HTTP servers can connect using the same URL:
+Claude.ai (web), Cursor, Windsurf, and other MCP-compatible agents/IDEs. Check your
+client's docs for how it registers a remote MCP server — the URL is the only thing
+you need: `https://laouc-agenda-mcp.rcarrascosps.workers.dev`.
+
+Clients that only support local (stdio) MCP servers won't be able to connect directly.
+
 ## What you can ask
 
 - "What's the agenda for Chile?"
