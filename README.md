@@ -54,7 +54,9 @@ Clients that only support local (stdio) MCP servers won't be able to connect dir
 | `get_keynotes` | Confirmed keynotes for all 9 cities |
 
 Every session includes a `date` field (ISO `YYYY-MM-DD`) for its city's tour stop, plus
-`time_slot`, which is the local agenda time in that city — not adjusted for timezone.
+`time_slot`. **`time_slot` is always the local agenda time of that session's own city —
+it is never adjusted for timezone.** If you're looking at a speaker's sessions across
+multiple cities, each `time_slot` belongs to a different local clock, not a shared one.
 
 The data only includes confirmed sessions (green/accepted) and contains no emails or
 other personal contact info — it's safe to share this URL publicly with speakers.

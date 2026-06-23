@@ -36,7 +36,9 @@ function buildServer(env: Env): McpServer {
 
   server.tool(
     'get_city_agenda',
-    'Devuelve la agenda completa de una ciudad del tour, con fecha de calendario y horario local, ordenada por horario',
+    'Devuelve la agenda completa de una ciudad del tour, ordenada por horario. ' +
+      'Cada sesión incluye fecha de calendario (date) y horario (time_slot); ' +
+      'time_slot es la hora local de ESA ciudad (sin conversión de zona horaria)',
     { city: z.string().describe('Nombre exacto de la ciudad, ej. "Mexico"') },
     async ({ city }: { city: string }) => {
       return withAgendaErrorHandling(async () => {
@@ -48,7 +50,10 @@ function buildServer(env: Env): McpServer {
 
   server.tool(
     'get_speaker_sessions',
-    'Devuelve todas las sesiones confirmadas de un speaker en cualquier ciudad del tour',
+    'Devuelve todas las sesiones confirmadas de un speaker en cualquier ciudad del tour. ' +
+      'Cada sesión incluye su fecha y time_slot en hora local de su propia ciudad ' +
+      '(sin conversión de zona horaria) — si el speaker tiene sesiones en varias ciudades, ' +
+      'cada horario corresponde a la zona local de esa ciudad, no a una hora común',
     { speaker_name: z.string().describe('Nombre completo o parcial del speaker') },
     async ({ speaker_name }: { speaker_name: string }) => {
       return withAgendaErrorHandling(async () => {
@@ -64,7 +69,9 @@ function buildServer(env: Env): McpServer {
 
   server.tool(
     'search_sessions',
-    'Busca sesiones por palabra clave en el título, track o biografía del speaker',
+    'Busca sesiones por palabra clave en el título, track o biografía del speaker. ' +
+      'Cada resultado incluye fecha y time_slot en hora local de la ciudad de esa sesión ' +
+      '(sin conversión de zona horaria)',
     { query: z.string().describe('Palabra clave a buscar, ej. "AI" o "GoldenGate"') },
     async ({ query }: { query: string }) => {
       return withAgendaErrorHandling(async () => {
@@ -78,7 +85,7 @@ function buildServer(env: Env): McpServer {
     }
   );
 
-  server.tool('get_keynotes', 'Lista los keynotes confirmados de las 9 ciudades del tour', {}, async () => {
+  server.tool('get_keynotes', 'Lista los keynotes confirmados de las 9 ciudades del tour, con la fecha de calendario de cada uno', {}, async () => {
     return withAgendaErrorHandling(async () => {
       const data = await fetchAgendaData(env.AGENDA_JSON_URL);
       return { content: [{ type: 'text', text: JSON.stringify(getKeynotes(data)) }] };
