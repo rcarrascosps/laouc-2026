@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:59:45.386926+00:00",
+  "generated_at": "2026-06-23T17:03:22.140869+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -268,6 +268,17 @@
     {
       "city": "Mexico",
       "time_slot": "16:00 – 16:45",
+      "track": "Base de Datos",
+      "is_keynote": false,
+      "title": "Construyendo aplicaciones con AI y datos usando Oracle Database Free",
+      "speaker_name": "Rita Nunez",
+      "speaker_company": "Tecnix Solutions",
+      "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
+      "oracle_ace": null
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "16:00 – 16:45",
       "track": "Cloud & Diff. Topics",
       "is_keynote": false,
       "title": "Vector Wars: Performance Strikes Back",
@@ -296,6 +307,17 @@
       "speaker_name": "Patrick Barel",
       "speaker_company": "Qualogy",
       "speaker_bio": "Patrick Barel is a PL/SQL Developer for Qualogy [http://www.qualogy.com/] in the Netherlands. Besides working with SQL and PL/SQL he wrote different plug-ins [http://plugins.bar-solutions.com/] for PL/SQL Developer [http://www.allroundautomations.com/]. He publishes articles on his own blog [http://blog.bar-solutions.com/].\nIn 2015 he received the Oracle Developer Choice Award in the PL/SQL Category.\nIn 2019 he was promoted to Oracle ACE Director [https://apexapps.oracle.com/pls/apex/f?p=119297:3:::::SEARCH:Patrick%20Barel]\nIn 2023 he published his first book: Modern Oracle Database Programming  [https://www.amazon.com/Modern-Oracle-Database-Programming-Powerful/dp/1484291654]",
+      "oracle_ace": null
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "16:45 – 17:30",
+      "track": "Base de Datos",
+      "is_keynote": false,
+      "title": "De la Configuración Manual a la Orquestación Inteligente: Evolución de GoldenGate Studio",
+      "speaker_name": "Rita Nunez",
+      "speaker_company": "Tecnix Solutions",
+      "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
       "oracle_ace": null
     },
     {
@@ -352,6 +374,17 @@
       "speaker_company": "Dell Technologies",
       "speaker_bio": "Mario Barduchi is an Oracle ACE Director with over 25 years of experience in Oracle Database Management. In last years, he has become an enthusiast of NoSQL technologies, particularly MongoDB.\nWith a career developed in major consulting and leading technology companies like Oracle, Mario has served enterprise customers in Healthcare, Finance, and Retail sectors. Currently, as a Principal Database Engineer, he is part of a team of AI & Data Management experts at Dell Technologies.\nHis team operates throughout Latin America and the USA, assisting companies in implementing scalable and efficient database solutions in hybrid and multi-cloud infrastructures. \nAdditionally, he is frequently invited to speak at conferences and events on Oracle, MongoDB, and other technologies. He is the Regional Coordinator for GUOB and the DBA Brasil Group.",
       "oracle_ace": "Oracle ACE Director"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "17:30 – 18:15",
+      "track": "Inteligencia Artificial",
+      "is_keynote": false,
+      "title": "Unlock Strategic Value with Enterprise AI - Oracle Analytics and AI Data Platform",
+      "speaker_name": "Darren Grogan",
+      "speaker_company": "",
+      "speaker_bio": "",
+      "oracle_ace": null
     },
     {
       "city": "Mexico",
