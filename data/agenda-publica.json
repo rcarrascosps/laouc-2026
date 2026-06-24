@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T17:44:12.512688+00:00",
+  "generated_at": "2026-06-24T17:50:43.757291+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -350,6 +350,18 @@
     {
       "city": "Mexico",
       "time_slot": "16:45 – 17:30",
+      "track": "Cloud & Diff. Topics",
+      "is_keynote": false,
+      "title": "Unlock Strategic Value with Enterprise AI - Oracle Analytics and AI Data Platform",
+      "speaker_name": "Darren Grogan",
+      "speaker_company": "",
+      "speaker_bio": "",
+      "oracle_ace": null,
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "16:45 – 17:30",
       "track": "Inteligencia Artificial",
       "is_keynote": false,
       "title": "Modernizing Enterprise Applications with Minimal Disruption: Oracle JSON-Relational Duality Views in",
@@ -368,18 +380,6 @@
       "speaker_name": "Basheer Khan",
       "speaker_company": "CEO",
       "speaker_bio": "Basheer Khan, founder & CEO of KNEX Technology, is an industry-leading expert in Oracle applications and technology. A member of Oracle’s Fusion Inner Circle, he specializes in Fusion applications implementation, integration and extension. He is the only Oracle ACE Director in North America, recognized for his expertise in Fusion Applications. Oracle Magazine honored him as Oracle’s Integration Architect of the Year. A frequent speaker at major conferences, he has been published numerous times.",
-      "oracle_ace": null,
-      "date": "2026-08-14"
-    },
-    {
-      "city": "Mexico",
-      "time_slot": "17:30 – 18:15",
-      "track": "Inteligencia Artificial",
-      "is_keynote": false,
-      "title": "Unlock Strategic Value with Enterprise AI - Oracle Analytics and AI Data Platform",
-      "speaker_name": "Darren Grogan",
-      "speaker_company": "",
-      "speaker_bio": "",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
