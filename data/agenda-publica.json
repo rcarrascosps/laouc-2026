@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T17:50:43.757291+00:00",
+  "generated_at": "2026-06-24T19:23:58.277931+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -260,6 +260,18 @@
       "speaker_name": "Gustavo Gonzalez",
       "speaker_company": "KNEX Technology",
       "speaker_bio": "Gustavo is KNEX's CTO, leading the delivery and support organizations helping customers on their journey to the cloud. He is also an Oracle ACE Director since 2012. \nHe has delivered presentations at more than 200 conferences worldwide in more than 25 countries in North America, Europe, Latin America, and Asia.\n\nMultiple events, including OOW, OCW, Collaborate, BluePrint4d, Ascend, KSCOPE and user group events, since 2006.",
+      "oracle_ace": null,
+      "date": "2026-08-14"
+    },
+    {
+      "city": "Mexico",
+      "time_slot": "15:15 – 16:00",
+      "track": "APEX",
+      "is_keynote": false,
+      "title": "Desarrollar en Apex en la Nube sin Pagar NADA!",
+      "speaker_name": "Rita Nunez",
+      "speaker_company": "Tecnix Solutions",
+      "speaker_bio": "Rita Nuñez es Oracle ACE Director, especialista en Oracle Database y Oracle Cloud. Ingeniera en Sisitemas (UTN). Instructora de Oracle University desde 2006. Es Directora de Tecnix Solutions, Actualmente es Presidente del  Oracle User group de Argentina, ha escrito varios articulos. Mantiene a la Comunidad informada de la Tecnologia Oracle a traves de sus redes. Ha dado presentaciones en Eventos Oracle desde 2013 en los OTN TOUR y Oracle Groundbreakers Tour LATAM en Argentina, Brasil, Uruguay, Chile, Paraguay, Panama, Costa Rica, Mexico y Ecuador. También en Oracle Code Buenos Aires 2018, Oracle Code Paris 2018 y Oracle Open World 2016 y 2017 y Oracle Cloud World Las Vegas en Sep 2024.  \n",
       "oracle_ace": null,
       "date": "2026-08-14"
     },
