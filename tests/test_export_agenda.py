@@ -228,3 +228,71 @@ def test_build_public_sessions_unmatched_speaker_gets_empty_enrichment():
             'speaker_company': '', 'speaker_bio': '', 'oracle_ace': None,
         },
     ]
+
+
+from export_agenda import parse_custom_format_cell, extract_custom_format_sessions
+
+
+def test_parse_custom_format_cell_speaker_then_title():
+    text = 'Connor McDonald\nThe Humbling Experience of being an AI Newbie'
+    assert parse_custom_format_cell(text) == {
+        'title': 'The Humbling Experience of being an AI Newbie',
+        'speaker_name': 'Connor McDonald',
+        'is_keynote': False,
+    }
+
+
+def test_parse_custom_format_cell_keynote_prefix():
+    text = 'Markus Michalewicz\nKeynote: Using Artificial Intelligence in Oracle AI Database'
+    assert parse_custom_format_cell(text) == {
+        'title': 'Using Artificial Intelligence in Oracle AI Database',
+        'speaker_name': 'Markus Michalewicz',
+        'is_keynote': True,
+    }
+
+
+def test_parse_custom_format_cell_single_line_returns_none():
+    assert parse_custom_format_cell('Coffee Break') is None
+    assert parse_custom_format_cell('Lunch Break') is None
+    assert parse_custom_format_cell('Registro') is None
+    assert parse_custom_format_cell('Apertura') is None
+
+
+def _make_uruguay_sheet():
+    wb = Workbook()
+    ws = wb.active
+    ws.title = 'Uruguay'
+    ws['A1'] = 'UYOUG LAOUC Tour 2026 | Lunes 31 Agosto'
+    ws['A2'] = 'Horario'
+    ws['B2'] = 'Sala D13'
+    ws['C2'] = 'Auditorio'
+    ws['A3'] = '08:30 - 09:00'
+    ws['B3'] = 'Registro'
+    ws['A4'] = '09:15 - 10:00'
+    ws['B4'] = 'Markus Michalewicz\nKeynote: Using Artificial Intelligence in Oracle AI Database'
+    ws['A5'] = '10:05 - 10:45'
+    ws['B5'] = 'Connor McDonald\nThe Humbling Experience of being an AI Newbie'
+    ws['C5'] = 'Richard Martens\nProperty Graphs in Oracle'
+    return ws
+
+
+def test_extract_custom_format_sessions_skips_logistics_and_flags_keynote():
+    ws = _make_uruguay_sheet()
+    entries = extract_custom_format_sessions(ws)
+    assert entries == [
+        {
+            'city': 'Uruguay', 'time_slot': None, 'track': None, 'is_keynote': True,
+            'title': 'Using Artificial Intelligence in Oracle AI Database',
+            'speaker_name': 'Markus Michalewicz', 'fill_rgb': GREEN_FILL,
+        },
+        {
+            'city': 'Uruguay', 'time_slot': '10:05 - 10:45', 'track': 'Sala D13', 'is_keynote': False,
+            'title': 'The Humbling Experience of being an AI Newbie',
+            'speaker_name': 'Connor McDonald', 'fill_rgb': GREEN_FILL,
+        },
+        {
+            'city': 'Uruguay', 'time_slot': '10:05 - 10:45', 'track': 'Auditorio', 'is_keynote': False,
+            'title': 'Property Graphs in Oracle',
+            'speaker_name': 'Richard Martens', 'fill_rgb': GREEN_FILL,
+        },
+    ]

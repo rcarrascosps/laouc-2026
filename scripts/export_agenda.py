@@ -34,6 +34,13 @@ CITY_DATES = {
 }
 
 
+# Cities whose sheet is a locally-published final agenda (own layout: room columns
+# instead of topic tracks, "Speaker\nTitle" cell order, no green/yellow confirmation
+# convention) rather than the standard 4-track template. Everything on the sheet is
+# already final, so every parsed session is treated as confirmed.
+CUSTOM_FORMAT_CITIES = {'Uruguay'}
+
+
 def is_confirmed(fill_rgb):
     return fill_rgb == GREEN_FILL
 
@@ -123,9 +130,53 @@ def is_keynote_row(ws, row_idx):
 
 def find_header_row(ws):
     for row in range(1, ws.max_row + 1):
-        if ws.cell(row=row, column=1).value == 'Horario':
+        value = ws.cell(row=row, column=1).value
+        if value and re.match(r'(?i)^hor[aá]rio$', str(value).strip()):
             return row
     raise ValueError(f"No 'Horario' header row found in sheet '{ws.title}'")
+
+
+# Custom-format cells list the speaker on the first line and the session title on
+# the second (opposite of the standard template). A keynote is marked inline with
+# a "Keynote:" prefix on the title line instead of a merged row + "(KEYNOTE)" tag.
+# Single-line cells (Registro, Apertura, Coffee Break, Lunch Break, ...) are venue
+# logistics, not sessions, and are skipped.
+def parse_custom_format_cell(text):
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    if len(lines) < 2:
+        return None
+    speaker_name = lines[0]
+    title_line = lines[1]
+    keynote_match = re.match(r'(?i)^keynote:\s*', title_line)
+    title = re.sub(r'(?i)^keynote:\s*', '', title_line).strip()
+    return {'title': title, 'speaker_name': speaker_name, 'is_keynote': bool(keynote_match)}
+
+
+def extract_custom_format_sessions(ws):
+    city = ws.title
+    header_row = find_header_row(ws)
+    track_names = {col: ws.cell(row=header_row, column=col).value for col in range(2, 6)}
+    entries = []
+    for row in range(header_row + 1, ws.max_row + 1):
+        time_slot = ws.cell(row=row, column=1).value
+        for col in range(2, 6):
+            cell = ws.cell(row=row, column=col)
+            if not cell.value:
+                continue
+            parsed = parse_custom_format_cell(cell.value)
+            if parsed is None or not parsed['title']:
+                continue
+            keynote = parsed['is_keynote']
+            entries.append({
+                'city': city,
+                'time_slot': None if keynote else time_slot,
+                'track': None if keynote else track_names[col],
+                'is_keynote': keynote,
+                'title': parsed['title'],
+                'speaker_name': parsed['speaker_name'],
+                'fill_rgb': GREEN_FILL,
+            })
+    return entries
 
 
 def extract_city_sessions(ws):
@@ -187,7 +238,10 @@ def main():
     all_public_sessions = []
     for city in CITIES:
         ws = wb[city]
-        raw_entries = extract_city_sessions(ws)
+        if city in CUSTOM_FORMAT_CITIES:
+            raw_entries = extract_custom_format_sessions(ws)
+        else:
+            raw_entries = extract_city_sessions(ws)
         city_sessions = build_public_sessions(raw_entries, speaker_lookup)
         for session in city_sessions:
             session['date'] = CITY_DATES[city]
