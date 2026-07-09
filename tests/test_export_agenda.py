@@ -41,8 +41,16 @@ def test_parse_session_cell_with_ace_bracket():
 def test_parse_session_cell_no_speaker_line():
     text = '▶  KEYNOTE  —  PENDIENTE DE CONFIRMAR'
     assert parse_session_cell(text) == {
-        'title': '▶  KEYNOTE  —  PENDIENTE DE CONFIRMAR',
+        'title': 'PENDIENTE DE CONFIRMAR',
         'speaker_name': '',
+    }
+
+
+def test_parse_session_cell_strips_keynote_marker_prefix():
+    text = '▶  KEYNOTE  —  The High Availability Mindset\nFrancisco Muñoz Alvarez'
+    assert parse_session_cell(text) == {
+        'title': 'The High Availability Mindset',
+        'speaker_name': 'Francisco Muñoz Alvarez',
     }
 
 

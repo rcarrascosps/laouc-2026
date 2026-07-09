@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T18:40:42.494717+00:00",
+  "generated_at": "2026-07-09T19:16:00.435577+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -652,7 +652,7 @@
       "time_slot": null,
       "track": null,
       "is_keynote": true,
-      "title": "▶  KEYNOTE  —  The High Availability Mindset",
+      "title": "The High Availability Mindset",
       "speaker_name": "Francisco Muñoz Alvarez",
       "speaker_company": "",
       "speaker_bio": "",
