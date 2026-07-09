@@ -296,3 +296,142 @@ def test_extract_custom_format_sessions_skips_logistics_and_flags_keynote():
             'speaker_name': 'Richard Martens', 'fill_rgb': GREEN_FILL,
         },
     ]
+
+
+from export_agenda import parse_chile_regular_cell, parse_chile_keynote_cell, extract_chile_sessions
+
+
+def test_parse_chile_regular_cell_splits_on_padding():
+    text = 'Patching like a Pro - 2026 Edition                                                   Rodrigo Jorge'
+    assert parse_chile_regular_cell(text) == {
+        'title': 'Patching like a Pro - 2026 Edition',
+        'speaker_name': 'Rodrigo Jorge',
+    }
+
+
+def test_parse_chile_regular_cell_logistics_returns_none():
+    assert parse_chile_regular_cell('Coffee Break') is None
+    assert parse_chile_regular_cell('Closing') is None
+
+
+def test_parse_chile_keynote_cell():
+    text = '▶  KEYNOTE  —  Engineering Resilience: The High Availability Mindset - Francisco Munoz Alvarez'
+    assert parse_chile_keynote_cell(text) == {
+        'title': 'Engineering Resilience: The High Availability Mindset',
+        'speaker_name': 'Francisco Munoz Alvarez',
+    }
+
+
+def _make_chile_sheet():
+    wb = Workbook()
+    ws = wb.active
+    ws.title = 'Chile'
+    ws['A2'] = 'Horario'
+    ws['B2'] = 'Base de Datos'
+    ws['C2'] = 'APEX / Desarrollo'
+    ws.merge_cells('B3:E3')
+    ws['B3'] = '▶  KEYNOTE  —  Engineering Resilience: The High Availability Mindset - Francisco Munoz Alvarez'
+    ws['A4'] = '09:50 – 10:35'
+    ws['B4'] = '100% Live Demo Is Back!                                            Connor McDonald'
+    ws['C4'] = 'Búsqueda declarativa en APEX                                               Niall McPhillips'
+    ws['A5'] = '10:35 - 11:05'
+    ws.merge_cells('B5:E5')
+    ws['B5'] = 'Coffee Break'
+    return ws
+
+
+def test_extract_chile_sessions_treats_every_cell_as_confirmed():
+    entries = extract_chile_sessions(_make_chile_sheet())
+    assert entries == [
+        {
+            'city': 'Chile', 'time_slot': None, 'track': None, 'is_keynote': True,
+            'title': 'Engineering Resilience: The High Availability Mindset',
+            'speaker_name': 'Francisco Munoz Alvarez', 'fill_rgb': GREEN_FILL,
+        },
+        {
+            'city': 'Chile', 'time_slot': '09:50 – 10:35', 'track': 'Base de Datos', 'is_keynote': False,
+            'title': '100% Live Demo Is Back!', 'speaker_name': 'Connor McDonald', 'fill_rgb': GREEN_FILL,
+        },
+        {
+            'city': 'Chile', 'time_slot': '09:50 – 10:35', 'track': 'APEX / Desarrollo', 'is_keynote': False,
+            'title': 'Búsqueda declarativa en APEX', 'speaker_name': 'Niall McPhillips', 'fill_rgb': GREEN_FILL,
+        },
+    ]
+
+
+from export_agenda import parse_brazil_cell, extract_brazil_sessions
+
+
+def test_parse_brazil_cell_regular_session():
+    text = 'Jayson Hanes\nDistinguished Product Manager - Oracle\nOracle APEX Generative Development\nInglês'
+    assert parse_brazil_cell(text) == {
+        'title': 'Oracle APEX Generative Development',
+        'speaker_name': 'Jayson Hanes',
+        'is_keynote': False,
+    }
+
+
+def test_parse_brazil_cell_keynote_with_room():
+    text = (
+        'Key Note\nMike Dietrich\nVP Product Management and Development - Oracle\n'
+        'Oracle 26ai: When the Database Becomes Intelligent and Autonomous\nEnglish\nAuditório'
+    )
+    assert parse_brazil_cell(text) == {
+        'title': 'Oracle 26ai: When the Database Becomes Intelligent and Autonomous',
+        'speaker_name': 'Mike Dietrich',
+        'is_keynote': True,
+    }
+
+
+def test_parse_brazil_cell_co_presenters_extra_role_line():
+    text = (
+        'Mike Dietrich & Harsh Gupta\nVP Product Management - Oracle /\n'
+        'VP Global Oracle Cloud and Database Services - Deutsche Bank\n'
+        "Deutsche Bank's ExaC@C Journey: Transforming more than 8,000 databases to Oracle cloud\nInglês"
+    )
+    assert parse_brazil_cell(text) == {
+        'title': "Deutsche Bank's ExaC@C Journey: Transforming more than 8,000 databases to Oracle cloud",
+        'speaker_name': 'Mike Dietrich & Harsh Gupta',
+        'is_keynote': False,
+    }
+
+
+def test_parse_brazil_cell_logistics_returns_none():
+    assert parse_brazil_cell('Registro ') is None
+    assert parse_brazil_cell('Lunch') is None
+    assert parse_brazil_cell('Coffee Break') is None
+
+
+def _make_brazil_sheet():
+    wb = Workbook()
+    ws = wb.active
+    ws.title = 'Brazil'
+    ws['A3'] = 'Horário'
+    ws['B3'] = 'APEX & Development'
+    ws['C3'] = 'Database'
+    ws['A4'] = 'Dia todo'
+    ws['B4'] = 'Registro'
+    ws['A7'] = '08:45-09:45AM'
+    ws['B7'] = (
+        'Key Note\nMike Dietrich\nVP Product Management - Oracle\n'
+        'Oracle 26ai: When the Database Becomes Intelligent and Autonomous\nEnglish\nAuditório'
+    )
+    ws['A8'] = '10:00-10:45AM'
+    ws['B8'] = 'Jayson Hanes\nDistinguished Product Manager - Oracle\nOracle APEX Generative Development\nInglês'
+    return ws
+
+
+def test_extract_brazil_sessions_skips_logistics_and_flags_keynote():
+    ws = _make_brazil_sheet()
+    entries = extract_brazil_sessions(ws)
+    assert entries == [
+        {
+            'city': 'Brazil', 'time_slot': None, 'track': None, 'is_keynote': True,
+            'title': 'Oracle 26ai: When the Database Becomes Intelligent and Autonomous',
+            'speaker_name': 'Mike Dietrich', 'fill_rgb': GREEN_FILL,
+        },
+        {
+            'city': 'Brazil', 'time_slot': '10:00-10:45AM', 'track': 'APEX & Development', 'is_keynote': False,
+            'title': 'Oracle APEX Generative Development', 'speaker_name': 'Jayson Hanes', 'fill_rgb': GREEN_FILL,
+        },
+    ]

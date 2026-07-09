@@ -34,13 +34,6 @@ CITY_DATES = {
 }
 
 
-# Cities whose sheet is a locally-published final agenda (own layout: room columns
-# instead of topic tracks, "Speaker\nTitle" cell order, no green/yellow confirmation
-# convention) rather than the standard 4-track template. Everything on the sheet is
-# already final, so every parsed session is treated as confirmed.
-CUSTOM_FORMAT_CITIES = {'Uruguay'}
-
-
 def is_confirmed(fill_rgb):
     return fill_rgb == GREEN_FILL
 
@@ -179,6 +172,127 @@ def extract_custom_format_sessions(ws):
     return entries
 
 
+# Chile's cells pack "Title<many spaces>Speaker" onto a single line instead of two
+# lines, and the fill colors are decorative per-track branding (a session moved from
+# its home track keeps that track's color, like Mexico's "(orig: ...)" convention) —
+# not a confirmation signal. Every parsed session is treated as confirmed.
+CHILE_LOGISTICS = {'coffee break', 'closing'}
+
+
+def parse_chile_regular_cell(text):
+    text = text.strip()
+    if text.lower() in CHILE_LOGISTICS:
+        return None
+    parts = [p.strip() for p in re.split(r'\s{2,}', text) if p.strip()]
+    if len(parts) < 2:
+        return None
+    return {'title': ' '.join(parts[:-1]).strip(), 'speaker_name': parts[-1]}
+
+
+def parse_chile_keynote_cell(text):
+    text = re.sub(r'^[▶\s]*KEYNOTE\s*[—-]\s*', '', text, flags=re.IGNORECASE).strip()
+    if ' - ' in text:
+        title, speaker = text.rsplit(' - ', 1)
+    else:
+        title, speaker = text, ''
+    return {'title': title.strip(), 'speaker_name': speaker.strip()}
+
+
+def extract_chile_sessions(ws):
+    city = ws.title
+    header_row = find_header_row(ws)
+    track_names = {col: ws.cell(row=header_row, column=col).value for col in range(2, 6)}
+    entries = []
+    for row in range(header_row + 1, ws.max_row + 1):
+        time_slot = ws.cell(row=row, column=1).value
+        keynote = is_keynote_row(ws, row)
+        for col in range(2, 6):
+            cell = ws.cell(row=row, column=col)
+            if not cell.value:
+                continue
+            text = str(cell.value)
+            if text.strip().lower() in CHILE_LOGISTICS:
+                continue
+            parsed = parse_chile_keynote_cell(text) if keynote else parse_chile_regular_cell(text)
+            if parsed is None or not parsed['title']:
+                continue
+            entries.append({
+                'city': city,
+                'time_slot': None if keynote else time_slot,
+                'track': None if keynote else track_names[col],
+                'is_keynote': keynote,
+                'title': parsed['title'],
+                'speaker_name': parsed['speaker_name'],
+                'fill_rgb': GREEN_FILL,
+            })
+    return entries
+
+
+# Brazil's cells pack Speaker(s) / Role-Company / Title / Language / optional Room
+# on separate lines, with no confirmation-color convention either (everything on
+# the sheet is final). Co-presented sessions (e.g. "Mike Dietrich & Harsh Gupta")
+# get an extra role line per presenter, so the title can't be found by a fixed
+# line index — anchor on the trailing language marker instead, which is always the
+# line right before the title (or two lines before it, if a room line follows).
+BRAZIL_LANGUAGE_MARKERS = {
+    'português', 'portugues', 'portugês', 'inglês', 'ingles', 'english', 'espanhol', 'español', 'spanish',
+}
+
+
+def parse_brazil_cell(text):
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    is_keynote = bool(lines) and lines[0].strip().lower().replace(' ', '') == 'keynote'
+    if is_keynote:
+        lines = lines[1:]
+    if len(lines) < 4:
+        return None
+    speaker_name = lines[0]
+    if lines[-1].strip().lower() in BRAZIL_LANGUAGE_MARKERS:
+        title = lines[-2]
+    elif len(lines) >= 5 and lines[-2].strip().lower() in BRAZIL_LANGUAGE_MARKERS:
+        title = lines[-3]
+    else:
+        title = lines[-2]
+    return {'title': title.strip(), 'speaker_name': speaker_name.strip(), 'is_keynote': is_keynote}
+
+
+def extract_brazil_sessions(ws):
+    city = ws.title
+    header_row = find_header_row(ws)
+    track_names = {col: ws.cell(row=header_row, column=col).value for col in range(2, 6)}
+    entries = []
+    for row in range(header_row + 1, ws.max_row + 1):
+        time_slot = ws.cell(row=row, column=1).value
+        for col in range(2, 6):
+            cell = ws.cell(row=row, column=col)
+            if not cell.value:
+                continue
+            parsed = parse_brazil_cell(str(cell.value))
+            if parsed is None or not parsed['title']:
+                continue
+            keynote = parsed['is_keynote']
+            entries.append({
+                'city': city,
+                'time_slot': None if keynote else time_slot,
+                'track': None if keynote else track_names[col],
+                'is_keynote': keynote,
+                'title': parsed['title'],
+                'speaker_name': parsed['speaker_name'],
+                'fill_rgb': GREEN_FILL,
+            })
+    return entries
+
+
+# Cities whose sheet is a locally-published final agenda in its own custom layout
+# (not the standard 4-track "Title\nSpeaker" + green/yellow confirmation template).
+# Everything on these sheets is already final, so every parsed session is confirmed.
+CITY_EXTRACTORS = {
+    'Uruguay': extract_custom_format_sessions,
+    'Chile': extract_chile_sessions,
+    'Brazil': extract_brazil_sessions,
+}
+
+
 def extract_city_sessions(ws):
     city = ws.title
     header_row = find_header_row(ws)
@@ -238,10 +352,8 @@ def main():
     all_public_sessions = []
     for city in CITIES:
         ws = wb[city]
-        if city in CUSTOM_FORMAT_CITIES:
-            raw_entries = extract_custom_format_sessions(ws)
-        else:
-            raw_entries = extract_city_sessions(ws)
+        extractor = CITY_EXTRACTORS.get(city, extract_city_sessions)
+        raw_entries = extractor(ws)
         city_sessions = build_public_sessions(raw_entries, speaker_lookup)
         for session in city_sessions:
             session['date'] = CITY_DATES[city]
