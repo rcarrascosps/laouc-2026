@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:29:20.306705+00:00",
+  "generated_at": "2026-08-04T15:20:41.528409+00:00",
   "cities": [
     "Mexico",
     "Guatemala",
@@ -1156,7 +1156,7 @@
       "time_slot": "11:05 – 11:50",
       "track": "APEX / Desarrollo",
       "is_keynote": false,
-      "title": "How to Integrate Oracle APEX with AI Agents",
+      "title": "How to create Agents in Oracle APEX 26.1",
       "speaker_name": "Paulo Künzel",
       "speaker_company": "APEX Principal Product Manager",
       "speaker_bio": "Principal Product Manager at Oracle, specialized in Oracle APEX (OCP/OCS), with strong experience in low-code development, JavaScript, and APIs. Works on the design and prioritization of features aligned with business goals and UX, leading migration and modernization initiatives to APEX with a focus on performance, scalability, and security.",
@@ -1588,7 +1588,7 @@
       "time_slot": "12:00-12:45PM",
       "track": "APEX & Development",
       "is_keynote": false,
-      "title": "How to Integrate Oracle APEX with AI Agents",
+      "title": "How to create Agents in Oracle APEX 26.1",
       "speaker_name": "Paulo Künzel",
       "speaker_company": "APEX Principal Product Manager",
       "speaker_bio": "Principal Product Manager at Oracle, specialized in Oracle APEX (OCP/OCS), with strong experience in low-code development, JavaScript, and APIs. Works on the design and prioritization of features aligned with business goals and UX, leading migration and modernization initiatives to APEX with a focus on performance, scalability, and security.",
@@ -2020,7 +2020,7 @@
       "time_slot": "10:30 – 11:15",
       "track": "APEX",
       "is_keynote": false,
-      "title": "How to Integrate Oracle APEX with AI Agents",
+      "title": "How to create Agents in Oracle APEX 26.1",
       "speaker_name": "Paulo Künzel",
       "speaker_company": "APEX Principal Product Manager",
       "speaker_bio": "Principal Product Manager at Oracle, specialized in Oracle APEX (OCP/OCS), with strong experience in low-code development, JavaScript, and APIs. Works on the design and prioritization of features aligned with business goals and UX, leading migration and modernization initiatives to APEX with a focus on performance, scalability, and security.",
